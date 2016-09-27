@@ -7,135 +7,288 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F9DD8D73B28AC9EBD674EF94E609FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		89ACDA362C47453155734EB0E6A040D0 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A42875AD2825B646726AB98E5B495082 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */; };
+		093E724BAAE245FB7F7304E8663F9668 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BEBCA581B3E5D8CC01DE67BA0FC64E /* UIButtonExtensions.swift */; };
+		0C840B1A1759026F5EBA2113BFA9A492 /* DriftAnimationImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C16225678166316BFA1838FD756AEF /* DriftAnimationImageView-dummy.m */; };
+		0CB770CD249FAA5736ECD96141497AE2 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDAC401EDC3A048C05467CBD6084A9D /* SingleImageSaver.swift */; };
+		118DE5355C8C4BC5EBB1C2034E7CC058 /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3204F83135A650615DD57CF12AB67B /* VolumeControl.swift */; };
+		184488E443B6D2A85DA45AD3D21245B1 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B2F09F6C7A2161D3E38CC43F023E61 /* CameraGlobals.swift */; };
+		1D1FE38C62B9D2AD8E29A04949DD1C6F /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB7043C75CD5F4C9829E5DC3A58C89 /* SingleImageFetcher.swift */; };
+		21B9C65EB3542F7DF279B8090F165EBD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5B1EDACDA6C935AE11EED465A254E /* UIViewExtensions.swift */; };
+		29880E5ABF060C5BD17C0606DBE10D7B /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D730FDC70F8C0613EA415813E37BDD74 /* ImageFetcher.swift */; };
+		32ACAD182A9C90C563170CF45CC65A5C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43F2F479A1F603BD412682117EDFED2 /* CameraViewController.swift */; };
+		32E1AD3E5E8DC870D5CBFCA8EB92D194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		3AB8980724808427937EC099A399DF0E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E9EA1C612B9F493C3F125486E5CBB /* ImageCell.swift */; };
+		45E1DF3AA2D60E7402D56EE637898FF6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E3CD1F1646A1122F90144ACBEE7E12 /* ConfirmViewController.swift */; };
+		4C115F1FF41B66803D010883277F87E2 /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D6C386183110591FD3BBED7C09D343 /* CameraViewAssets.xcassets */; };
+		571340FD7CCFE8BAC3A2F08E0CD9CED5 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A729D846D9CF745FC25F60F3372929 /* PhotoLibraryViewController.swift */; };
+		705D53790CC8B18997358B20F268F7F3 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D8CF1D4B84662F2BF313151AADD96F /* CropOverlay.swift */; };
+		728A45B8B971047BDB308AE2141F3DC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD0E41F45746742CAC62A12765F59A /* Utilities.swift */; };
+		79A19228C1166CE5B1D5E857B2F94173 /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B7E447688386534AC53CC6977D0231 /* ALCameraViewController-dummy.m */; };
+		8D3AEE22F4499ACE6458FE363F11E59B /* DriftAnimationImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F9BB2E076C4D96376BFDE5CE5D5567 /* DriftAnimationImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4A966830ABFC9639F5250B2AE9DF7B /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450D3D179E7C0114E2CA6A0558E7DC1 /* CameraShot.swift */; };
+		904F7CC8D2C021E27269D6C73B4B3B82 /* DriftAnimationImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4218BD4BEAC13C0579BB573A52A78 /* DriftAnimationImageView.swift */; };
+		9BF305F592A12DD4D24E8174BABBC1A8 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */; };
+		A940E8F9C140B8C66EFF4D1483297520 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C1F7A8410291E05823FFA77CF78A7 /* CameraView.swift */; };
+		B3AB8B9A6BF3D7C6AD248D750C4AF3DA /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99FA34735BFC5B431E00585D0B72E22C /* CameraView.strings */; };
+		B792160E0DF8BABD00BA2D01D992572E /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DAC29BB9F8DC62EB290D8A7255B814 /* PhotoLibraryAuthorizer.swift */; };
+		D949A968AD3CDC949C94394BDFD02B65 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2961A8E68FA390B2392F71D381C743E8 /* ConfirmViewController.xib */; };
+		DC18FBB9C68A2A305A2B64A93C7F24D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		E2560A7275A61939751F09B8163EBA16 /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEF322ADE809168ECE6FB6D08CD4367 /* CameraViewControllerConstraint.swift */; };
+		E5F334E181A8EDCE0B0CE084957957A7 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AEB75836A779AAA88A0F4AA256AC4 /* PermissionsView.swift */; };
+		E9B24512189B682A1546E46C5B052531 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		EC83239D293E4EFE736CD4DCCBF9F716 /* DriftAnimationImageView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 873B8D155AA305F5FDD7FCB0F3E2E4B5 /* DriftAnimationImageView.bundle */; };
+		F3224858C13E9A856221115004589F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		F3ED4024EBF978156D113F80A7792AC7 /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E62F853BF1247367D1AF2C95373533 /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC24F50AEBE93E16BC7910B2B1568C5C /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0176AF079329682EF6ADFAF11944D6B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C30BFF53E4DD37341956FF6E18934A4;
+			remoteInfo = "DriftAnimationImageView-DriftAnimationImageView";
+		};
+		581869A72152733DFD70AA26604D691C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEFE5845A9A47287B43BE713DFD4B08;
+			remoteInfo = ALCameraViewController;
+		};
+		720649AAB9AC62144829FBD1EBF6D4BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21AF02A18277C1BF032A6BE537AD773E;
+			remoteInfo = DriftAnimationImageView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
-		1B9AD13A755A23C04E6DA68218185BC2 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		1C3204F83135A650615DD57CF12AB67B /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
+		1C97948407EC01E8AC83AAC5BB47AE64 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		1F8980FE0A5ACF5A37D8F9231CCCAB28 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		22F9BB2E076C4D96376BFDE5CE5D5567 /* DriftAnimationImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriftAnimationImageView-umbrella.h"; sourceTree = "<group>"; };
+		23D6C386183110591FD3BBED7C09D343 /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		2961A8E68FA390B2392F71D381C743E8 /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
+		2A0A32C416020D01EE8BF9886A11C37F /* ResourceBundle-DriftAnimationImageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DriftAnimationImageView-Info.plist"; sourceTree = "<group>"; };
+		2A86072BC7CCE23C5DA4D67EA17448FA /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		3004C8255741A9B884615B4E5EEAB996 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
-		37837AA8F9DF1783FD3040617F3A6834 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
-		3AA2C777DA5AB9FBCFE43B06398682EA /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		3CD5A30239C90F1B549B4AB9299ECF16 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		3D653C9DA16200D75AD14323AA830C6B /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
-		40ED930C2DDD09AC0C5DAE5E3B2947CF /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		51A595C3E6DC6AA84BD897F29011631B /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		68AD0ED4E063376BCDF4E291C9A892C6 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		6D7C866C80CE2D736B5C8E1068EFCAE8 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4990B1E9E1698E7256BF62C3104B7754 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DD0E41F45746742CAC62A12765F59A /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		52CAEE48683B56E98819C78C5CA1430A /* DriftAnimationImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DriftAnimationImageView.xcconfig; sourceTree = "<group>"; };
+		55B4218BD4BEAC13C0579BB573A52A78 /* DriftAnimationImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DriftAnimationImageView.swift; path = Pod/Classes/DriftAnimationImageView.swift; sourceTree = "<group>"; };
+		59D8CF1D4B84662F2BF313151AADD96F /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
+		5A42E6B6A4970D15C44915B41CA095E8 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		62DAC29BB9F8DC62EB290D8A7255B814 /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		65BEBCA581B3E5D8CC01DE67BA0FC64E /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		68E3CD1F1646A1122F90144ACBEE7E12 /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
+		69AE86176B52DE64B879481BE6EC123A /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
 		71940C1CEB7995DC34CFE54CAF1AEF88 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		757CDEDB2006963F72B6E173E8FD258D /* DriftAnimationImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriftAnimationImageView-prefix.pch"; sourceTree = "<group>"; };
+		75B7E447688386534AC53CC6977D0231 /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		7C9E9EA1C612B9F493C3F125486E5CBB /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
+		873B8D155AA305F5FDD7FCB0F3E2E4B5 /* DriftAnimationImageView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriftAnimationImageView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB5B1EDACDA6C935AE11EED465A254E /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
+		8ACDA7F25CC815B1C9E076D5D0C1FA68 /* ALCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDAC401EDC3A048C05467CBD6084A9D /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
+		8CAB7043C75CD5F4C9829E5DC3A58C89 /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B050B5218E3AE42369AC12406B386E66 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		93CE9E8240295018BA08F2112E9B25FC /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		97B2F09F6C7A2161D3E38CC43F023E61 /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
+		99FA34735BFC5B431E00585D0B72E22C /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
+		9FB5BBA5091F498D14400F560B25BB3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A9C16225678166316BFA1838FD756AEF /* DriftAnimationImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DriftAnimationImageView-dummy.m"; sourceTree = "<group>"; };
+		AE23D8737FF8D6488DC0569A4074D9E4 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		AF7C1F7A8410291E05823FFA77CF78A7 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
+		AFD9D0E7FCFF4FFCFDC73821501AF828 /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		B09A8EC882755006C0A48C1D221490B9 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		B5107CED48D416B5ECB7FCCD32B2CC70 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		BB9699038661BEBBCEC7FCD9A24CA7D9 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		BDDBB155FE32899FCD582CAB63E8DDC3 /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
 		C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		C8C7734DD4885BE9985130A7F10FC44C /* DriftAnimationImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DriftAnimationImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA19694C0AC41D598DE4ABFEB300E619 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D43F2F479A1F603BD412682117EDFED2 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		D730FDC70F8C0613EA415813E37BDD74 /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
 		DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		E68F8C86FB3267A3C87983DA9E269889 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7ED01B3EF3B94EF249D7F734618B4B6 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		EBAEC0D48646DF401F821C42E1799CE8 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		F1255BC8558899B2DF34063473BE81CD /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE7AEB75836A779AAA88A0F4AA256AC4 /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
+		F3A729D846D9CF745FC25F60F3372929 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		F450D3D179E7C0114E2CA6A0558E7DC1 /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		F4CF44D9C56752E52DE7B672D5C3DEE4 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		F5E62F853BF1247367D1AF2C95373533 /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		F804D2F784278C339CA002ACFED30D08 /* DriftAnimationImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DriftAnimationImageView.modulemap; sourceTree = "<group>"; };
+		FFEF322ADE809168ECE6FB6D08CD4367 /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EAC8F4314E31010A2D9ED6E2F531C624 /* Frameworks */ = {
+		5CB983556107C499C6EAAA92E50EFA44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F9DD8D73B28AC9EBD674EF94E609FB7 /* Foundation.framework in Frameworks */,
+				F3224858C13E9A856221115004589F58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95D29351B7D3215B895719515301281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC18FBB9C68A2A305A2B64A93C7F24D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB668B650F0AD8D1534CD00DDE65F796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E1AD3E5E8DC870D5CBFCA8EB92D194 /* Foundation.framework in Frameworks */,
+				E9B24512189B682A1546E46C5B052531 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54BD491074BD1063B136B8DC117D1ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05252762D463C7E0AFA6C591045E68D8 /* Frameworks */ = {
+		056B0C6FC5B5C218186CB9324FD110A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3AA2C777DA5AB9FBCFE43B06398682EA /* GoogleSymbolUtilities.framework */,
+				1C97948407EC01E8AC83AAC5BB47AE64 /* GoogleNetworkingUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		075C9ABDED0D9A4A27285BB4F0D01753 /* Products */ = {
+		10297DDD13759D5707E204B4BA3F17E8 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				6D7C866C80CE2D736B5C8E1068EFCAE8 /* Pods_Demo.framework */,
+				5304CA7D738770BE8E08F63C6F1DC09E /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		2ED2FE3A7513FA1FD951FCE9C2480A31 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				1F8980FE0A5ACF5A37D8F9231CCCAB28 /* FIRInstanceID.h */,
+				A9A177C3C4759D12ED748AB9FB0110B4 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		3CF4AAC2E876451C12BDB35749D43FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ACDA7F25CC815B1C9E076D5D0C1FA68 /* ALCameraViewController.framework */,
+				873B8D155AA305F5FDD7FCB0F3E2E4B5 /* DriftAnimationImageView.bundle */,
+				C8C7734DD4885BE9985130A7F10FC44C /* DriftAnimationImageView.framework */,
+				3004C8255741A9B884615B4E5EEAB996 /* Pods_Demo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		09FAAAB132C9F9CA23C1F60D01DE5271 /* Frameworks */ = {
+		4142FBCF5E9CC59E7566CF56A75733E2 /* DriftAnimationImageView */ = {
 			isa = PBXGroup;
 			children = (
-				E7ED01B3EF3B94EF249D7F734618B4B6 /* GoogleNetworkingUtilities.framework */,
+				55B4218BD4BEAC13C0579BB573A52A78 /* DriftAnimationImageView.swift */,
+				4B322BB2CEEBEABA812C05FB7BBC4D22 /* Support Files */,
+			);
+			path = DriftAnimationImageView;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0F6EAF079DA078C18EBD515B5C00CF63 /* Pods */ = {
+		4B322BB2CEEBEABA812C05FB7BBC4D22 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F8E133262DF4ED744FDCAC4A1C089735 /* Firebase */,
-				3A035188177FFCF64FD130FB31FA019A /* FirebaseAnalytics */,
-				D885F98B0D6A7CF7E7558D03B19D7333 /* FirebaseDatabase */,
-				F4800B87174FBE3D85BA621647B41E14 /* FirebaseInstanceID */,
-				B00AAF94E46CFB06237E8BA96288247E /* FirebaseStorage */,
-				AA9CFFD1BE3402C00F270ADF5CD1174B /* GoogleInterchangeUtilities */,
-				29C0FE147E3604E7EA39793F3587F668 /* GoogleNetworkingUtilities */,
-				C4D190F6CE3015CEA1B1B3AC09761013 /* GoogleSymbolUtilities */,
-				537A894370A0A740BDD75EF20AA1C022 /* GoogleUtilities */,
+				F804D2F784278C339CA002ACFED30D08 /* DriftAnimationImageView.modulemap */,
+				52CAEE48683B56E98819C78C5CA1430A /* DriftAnimationImageView.xcconfig */,
+				A9C16225678166316BFA1838FD756AEF /* DriftAnimationImageView-dummy.m */,
+				757CDEDB2006963F72B6E173E8FD258D /* DriftAnimationImageView-prefix.pch */,
+				22F9BB2E076C4D96376BFDE5CE5D5567 /* DriftAnimationImageView-umbrella.h */,
+				9FB5BBA5091F498D14400F560B25BB3F /* Info.plist */,
+				2A0A32C416020D01EE8BF9886A11C37F /* ResourceBundle-DriftAnimationImageView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DriftAnimationImageView";
+			sourceTree = "<group>";
+		};
+		4C59E3EE4EF10F3D6ACCCDFF62540EC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6275F3F5F64147DC6C6DDB871E93824 /* ALCameraViewController */,
+				4142FBCF5E9CC59E7566CF56A75733E2 /* DriftAnimationImageView */,
+				BCEE79EF868E6BBDF1E96252C4AF635C /* Firebase */,
+				FF0EF518EF6196B7679562154A05AE1C /* FirebaseAnalytics */,
+				82FBB426F04C09F726A22F98404F151B /* FirebaseDatabase */,
+				2ED2FE3A7513FA1FD951FCE9C2480A31 /* FirebaseInstanceID */,
+				825F718D70BD07D082457A08C2D77F7D /* FirebaseStorage */,
+				DFE0ECBBE9B4F7F31802AD5DC567ABCF /* GoogleInterchangeUtilities */,
+				512865EC7C62BF35482C9ABDABC963AE /* GoogleNetworkingUtilities */,
+				10297DDD13759D5707E204B4BA3F17E8 /* GoogleSymbolUtilities */,
+				E325ECF65E11E0618474FFCDE78FFBE9 /* GoogleUtilities */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		18A5ECB4CE3608F259E711E909ACC6EA /* Frameworks */ = {
+		4C6CC6C820459BA44890CA59C8CFF48D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F1255BC8558899B2DF34063473BE81CD /* FirebaseAnalytics.framework */,
+				69AE86176B52DE64B879481BE6EC123A /* ALCameraViewController.modulemap */,
+				BDDBB155FE32899FCD582CAB63E8DDC3 /* ALCameraViewController.xcconfig */,
+				75B7E447688386534AC53CC6977D0231 /* ALCameraViewController-dummy.m */,
+				AFD9D0E7FCFF4FFCFDC73821501AF828 /* ALCameraViewController-prefix.pch */,
+				F5E62F853BF1247367D1AF2C95373533 /* ALCameraViewController-umbrella.h */,
+				4990B1E9E1698E7256BF62C3104B7754 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALCameraViewController";
+			sourceTree = "<group>";
+		};
+		4F2AF55BDBC61C70BB1895D41BEE8016 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A86072BC7CCE23C5DA4D67EA17448FA /* FirebaseStorage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		209FEE41426460F6BD80BA5947705BE7 /* Analytics */ = {
+		512865EC7C62BF35482C9ABDABC963AE /* GoogleNetworkingUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				37837AA8F9DF1783FD3040617F3A6834 /* Firebase.h */,
-			);
-			name = Analytics;
-			sourceTree = "<group>";
-		};
-		29C0FE147E3604E7EA39793F3587F668 /* GoogleNetworkingUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				09FAAAB132C9F9CA23C1F60D01DE5271 /* Frameworks */,
+				056B0C6FC5B5C218186CB9324FD110A0 /* Frameworks */,
 			);
 			path = GoogleNetworkingUtilities;
 			sourceTree = "<group>";
 		};
-		3A035188177FFCF64FD130FB31FA019A /* FirebaseAnalytics */ = {
+		5304CA7D738770BE8E08F63C6F1DC09E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18A5ECB4CE3608F259E711E909ACC6EA /* Frameworks */,
+				93CE9E8240295018BA08F2112E9B25FC /* GoogleSymbolUtilities.framework */,
 			);
-			path = FirebaseAnalytics;
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		537A894370A0A740BDD75EF20AA1C022 /* GoogleUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				F679ABD5E311BD30510DB808D04CE375 /* Frameworks */,
-			);
-			path = GoogleUtilities;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */ = {
@@ -146,79 +299,132 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		718AB8D9E44B2247381A502886200E15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99FA34735BFC5B431E00585D0B72E22C /* CameraView.strings */,
+				23D6C386183110591FD3BBED7C09D343 /* CameraViewAssets.xcassets */,
+				2961A8E68FA390B2392F71D381C743E8 /* ConfirmViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0F6EAF079DA078C18EBD515B5C00CF63 /* Pods */,
-				075C9ABDED0D9A4A27285BB4F0D01753 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4C59E3EE4EF10F3D6ACCCDFF62540EC6 /* Pods */,
+				3CF4AAC2E876451C12BDB35749D43FD4 /* Products */,
 				6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8CFC3292B3E053F5D81983AA67AB79AD /* Frameworks */ = {
+		825F718D70BD07D082457A08C2D77F7D /* FirebaseStorage */ = {
 			isa = PBXGroup;
 			children = (
-				51A595C3E6DC6AA84BD897F29011631B /* GoogleInterchangeUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A41C955E92DF1B20B2F4AB0AC1E7CAED /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				68AD0ED4E063376BCDF4E291C9A892C6 /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AA9CFFD1BE3402C00F270ADF5CD1174B /* GoogleInterchangeUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				8CFC3292B3E053F5D81983AA67AB79AD /* Frameworks */,
-			);
-			path = GoogleInterchangeUtilities;
-			sourceTree = "<group>";
-		};
-		B00AAF94E46CFB06237E8BA96288247E /* FirebaseStorage */ = {
-			isa = PBXGroup;
-			children = (
-				C3442A96B9CB08A53A92932204E90184 /* Frameworks */,
+				4F2AF55BDBC61C70BB1895D41BEE8016 /* Frameworks */,
 			);
 			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		82FBB426F04C09F726A22F98404F151B /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C3442A96B9CB08A53A92932204E90184 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1B9AD13A755A23C04E6DA68218185BC2 /* FirebaseStorage.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C4D190F6CE3015CEA1B1B3AC09761013 /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				05252762D463C7E0AFA6C591045E68D8 /* Frameworks */,
-			);
-			path = GoogleSymbolUtilities;
-			sourceTree = "<group>";
-		};
-		D885F98B0D6A7CF7E7558D03B19D7333 /* FirebaseDatabase */ = {
-			isa = PBXGroup;
-			children = (
-				F98BF37C130C674C6FFE2F0A0CF574C6 /* Frameworks */,
+				B4F00642A5B1549A2088DD5233C2E3E9 /* Frameworks */,
 			);
 			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		906557BB084A34A4B78ED1351C10B323 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				AE23D8737FF8D6488DC0569A4074D9E4 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		A9A177C3C4759D12ED748AB9FB0110B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CF44D9C56752E52DE7B672D5C3DEE4 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4F00642A5B1549A2088DD5233C2E3E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B09A8EC882755006C0A48C1D221490B9 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCEE79EF868E6BBDF1E96252C4AF635C /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				906557BB084A34A4B78ED1351C10B323 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		D6275F3F5F64147DC6C6DDB871E93824 /* ALCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				97B2F09F6C7A2161D3E38CC43F023E61 /* CameraGlobals.swift */,
+				F450D3D179E7C0114E2CA6A0558E7DC1 /* CameraShot.swift */,
+				AF7C1F7A8410291E05823FFA77CF78A7 /* CameraView.swift */,
+				D43F2F479A1F603BD412682117EDFED2 /* CameraViewController.swift */,
+				FFEF322ADE809168ECE6FB6D08CD4367 /* CameraViewControllerConstraint.swift */,
+				68E3CD1F1646A1122F90144ACBEE7E12 /* ConfirmViewController.swift */,
+				59D8CF1D4B84662F2BF313151AADD96F /* CropOverlay.swift */,
+				7C9E9EA1C612B9F493C3F125486E5CBB /* ImageCell.swift */,
+				D730FDC70F8C0613EA415813E37BDD74 /* ImageFetcher.swift */,
+				EE7AEB75836A779AAA88A0F4AA256AC4 /* PermissionsView.swift */,
+				62DAC29BB9F8DC62EB290D8A7255B814 /* PhotoLibraryAuthorizer.swift */,
+				F3A729D846D9CF745FC25F60F3372929 /* PhotoLibraryViewController.swift */,
+				8CAB7043C75CD5F4C9829E5DC3A58C89 /* SingleImageFetcher.swift */,
+				8BDAC401EDC3A048C05467CBD6084A9D /* SingleImageSaver.swift */,
+				65BEBCA581B3E5D8CC01DE67BA0FC64E /* UIButtonExtensions.swift */,
+				8AB5B1EDACDA6C935AE11EED465A254E /* UIViewExtensions.swift */,
+				51DD0E41F45746742CAC62A12765F59A /* Utilities.swift */,
+				1C3204F83135A650615DD57CF12AB67B /* VolumeControl.swift */,
+				718AB8D9E44B2247381A502886200E15 /* Resources */,
+				4C6CC6C820459BA44890CA59C8CFF48D /* Support Files */,
+			);
+			path = ALCameraViewController;
+			sourceTree = "<group>";
+		};
+		DFE0ECBBE9B4F7F31802AD5DC567ABCF /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E25C49071AEAB02EA6947DE36697F /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		E325ECF65E11E0618474FFCDE78FFBE9 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FED2CF5EEE163E4C61D0B96B9C1DFAA7 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		E8C50AB5DC96D61F25EB8318A3F3F675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A42E6B6A4970D15C44915B41CA095E8 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC5E25C49071AEAB02EA6947DE36697F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5107CED48D416B5ECB7FCCD32B2CC70 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		ECC58720C5754A079F9A150E40E2FCDD /* Pods-Demo */ = {
@@ -239,68 +445,132 @@
 			path = "Target Support Files/Pods-Demo";
 			sourceTree = "<group>";
 		};
-		F4800B87174FBE3D85BA621647B41E14 /* FirebaseInstanceID */ = {
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B050B5218E3AE42369AC12406B386E66 /* FIRInstanceID.h */,
-				A41C955E92DF1B20B2F4AB0AC1E7CAED /* Frameworks */,
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
 			);
-			path = FirebaseInstanceID;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		F679ABD5E311BD30510DB808D04CE375 /* Frameworks */ = {
+		FED2CF5EEE163E4C61D0B96B9C1DFAA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EBAEC0D48646DF401F821C42E1799CE8 /* GoogleUtilities.framework */,
+				BB9699038661BEBBCEC7FCD9A24CA7D9 /* GoogleUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8E133262DF4ED744FDCAC4A1C089735 /* Firebase */ = {
+		FF0EF518EF6196B7679562154A05AE1C /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				209FEE41426460F6BD80BA5947705BE7 /* Analytics */,
+				E8C50AB5DC96D61F25EB8318A3F3F675 /* Frameworks */,
 			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		F98BF37C130C674C6FFE2F0A0CF574C6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				40ED930C2DDD09AC0C5DAE5E3B2947CF /* FirebaseDatabase.framework */,
-			);
-			name = Frameworks;
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		974EBD5F38DD4B2276C5C66D2F48D83A /* Headers */ = {
+		93E3B62F15EB49B363D8D3D5058B2C4B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89ACDA362C47453155734EB0E6A040D0 /* Pods-Demo-umbrella.h in Headers */,
+				8D3AEE22F4499ACE6458FE363F11E59B /* DriftAnimationImageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE662B23A47FB50FB20B51A8D48F8C83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC24F50AEBE93E16BC7910B2B1568C5C /* Pods-Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0072FB810A75EB524F7FD9B6D2A9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3ED4024EBF978156D113F80A7792AC7 /* ALCameraViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B241D84964029FA5DDC4EC5BE191062 /* Pods-Demo */ = {
+		21AF02A18277C1BF032A6BE537AD773E /* DriftAnimationImageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B2C087DFAF69A5D0E6FD22A19EEEB97 /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildConfigurationList = 05D43BC7B5B8FCBF64AEC621BB51742A /* Build configuration list for PBXNativeTarget "DriftAnimationImageView" */;
 			buildPhases = (
-				12481337A909A5E546C7964B08A0C1F3 /* Sources */,
-				EAC8F4314E31010A2D9ED6E2F531C624 /* Frameworks */,
-				974EBD5F38DD4B2276C5C66D2F48D83A /* Headers */,
+				D533B0D1F3BBFEF25957E8788BF9955D /* Sources */,
+				DB668B650F0AD8D1534CD00DDE65F796 /* Frameworks */,
+				D8BED1144466D8AE40618301100F42FD /* Resources */,
+				93E3B62F15EB49B363D8D3D5058B2C4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4083EFA18DF2BB5195AD7B0EDD1955 /* PBXTargetDependency */,
+			);
+			name = DriftAnimationImageView;
+			productName = DriftAnimationImageView;
+			productReference = C8C7734DD4885BE9985130A7F10FC44C /* DriftAnimationImageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2524C3E801A2BF0C14DED636E11F981E /* Pods-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC9A64E80426B1F48EBCB7AC37F674A /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildPhases = (
+				B6C9B768388CD956820C226D8F8DB391 /* Sources */,
+				A95D29351B7D3215B895719515301281 /* Frameworks */,
+				DE662B23A47FB50FB20B51A8D48F8C83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD20C66200C9C183519E1AFB011347B /* PBXTargetDependency */,
+				CF5C98F11EB195C3607138909EC2522C /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = 3004C8255741A9B884615B4E5EEAB996 /* Pods_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C30BFF53E4DD37341956FF6E18934A4 /* DriftAnimationImageView-DriftAnimationImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD385230F2112B1B0DDFB316523F1B3D /* Build configuration list for PBXNativeTarget "DriftAnimationImageView-DriftAnimationImageView" */;
+			buildPhases = (
+				6C7C15C8D1A3E49F2185426359F1D3AF /* Sources */,
+				F54BD491074BD1063B136B8DC117D1ED /* Frameworks */,
+				75A596E7DC67D2AC4DF991F535771DCE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Demo";
-			productName = "Pods-Demo";
-			productReference = 6D7C866C80CE2D736B5C8E1068EFCAE8 /* Pods_Demo.framework */;
+			name = "DriftAnimationImageView-DriftAnimationImageView";
+			productName = "DriftAnimationImageView-DriftAnimationImageView";
+			productReference = 873B8D155AA305F5FDD7FCB0F3E2E4B5 /* DriftAnimationImageView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DAEFE5845A9A47287B43BE713DFD4B08 /* ALCameraViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA2FC259999CD7A5937B0E53E3A19FE /* Build configuration list for PBXNativeTarget "ALCameraViewController" */;
+			buildPhases = (
+				2215D0455CCAFA96257948CD09BB4CAA /* Sources */,
+				5CB983556107C499C6EAAA92E50EFA44 /* Frameworks */,
+				46B9EBA864B0B4B79BC7EBBD37C32595 /* Resources */,
+				E8F0072FB810A75EB524F7FD9B6D2A9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALCameraViewController;
+			productName = ALCameraViewController;
+			productReference = 8ACDA7F25CC815B1C9E076D5D0C1FA68 /* ALCameraViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -320,28 +590,122 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 075C9ABDED0D9A4A27285BB4F0D01753 /* Products */;
+			productRefGroup = 3CF4AAC2E876451C12BDB35749D43FD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B241D84964029FA5DDC4EC5BE191062 /* Pods-Demo */,
+				DAEFE5845A9A47287B43BE713DFD4B08 /* ALCameraViewController */,
+				21AF02A18277C1BF032A6BE537AD773E /* DriftAnimationImageView */,
+				5C30BFF53E4DD37341956FF6E18934A4 /* DriftAnimationImageView-DriftAnimationImageView */,
+				2524C3E801A2BF0C14DED636E11F981E /* Pods-Demo */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		46B9EBA864B0B4B79BC7EBBD37C32595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AB8B9A6BF3D7C6AD248D750C4AF3DA /* CameraView.strings in Resources */,
+				4C115F1FF41B66803D010883277F87E2 /* CameraViewAssets.xcassets in Resources */,
+				D949A968AD3CDC949C94394BDFD02B65 /* ConfirmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A596E7DC67D2AC4DF991F535771DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BED1144466D8AE40618301100F42FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC83239D293E4EFE736CD4DCCBF9F716 /* DriftAnimationImageView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		12481337A909A5E546C7964B08A0C1F3 /* Sources */ = {
+		2215D0455CCAFA96257948CD09BB4CAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A42875AD2825B646726AB98E5B495082 /* Pods-Demo-dummy.m in Sources */,
+				79A19228C1166CE5B1D5E857B2F94173 /* ALCameraViewController-dummy.m in Sources */,
+				184488E443B6D2A85DA45AD3D21245B1 /* CameraGlobals.swift in Sources */,
+				8F4A966830ABFC9639F5250B2AE9DF7B /* CameraShot.swift in Sources */,
+				A940E8F9C140B8C66EFF4D1483297520 /* CameraView.swift in Sources */,
+				32ACAD182A9C90C563170CF45CC65A5C /* CameraViewController.swift in Sources */,
+				E2560A7275A61939751F09B8163EBA16 /* CameraViewControllerConstraint.swift in Sources */,
+				45E1DF3AA2D60E7402D56EE637898FF6 /* ConfirmViewController.swift in Sources */,
+				705D53790CC8B18997358B20F268F7F3 /* CropOverlay.swift in Sources */,
+				3AB8980724808427937EC099A399DF0E /* ImageCell.swift in Sources */,
+				29880E5ABF060C5BD17C0606DBE10D7B /* ImageFetcher.swift in Sources */,
+				E5F334E181A8EDCE0B0CE084957957A7 /* PermissionsView.swift in Sources */,
+				B792160E0DF8BABD00BA2D01D992572E /* PhotoLibraryAuthorizer.swift in Sources */,
+				571340FD7CCFE8BAC3A2F08E0CD9CED5 /* PhotoLibraryViewController.swift in Sources */,
+				1D1FE38C62B9D2AD8E29A04949DD1C6F /* SingleImageFetcher.swift in Sources */,
+				0CB770CD249FAA5736ECD96141497AE2 /* SingleImageSaver.swift in Sources */,
+				093E724BAAE245FB7F7304E8663F9668 /* UIButtonExtensions.swift in Sources */,
+				21B9C65EB3542F7DF279B8090F165EBD /* UIViewExtensions.swift in Sources */,
+				728A45B8B971047BDB308AE2141F3DC8 /* Utilities.swift in Sources */,
+				118DE5355C8C4BC5EBB1C2034E7CC058 /* VolumeControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7C15C8D1A3E49F2185426359F1D3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C9B768388CD956820C226D8F8DB391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF305F592A12DD4D24E8174BABBC1A8 /* Pods-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533B0D1F3BBFEF25957E8788BF9955D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C840B1A1759026F5EBA2113BFA9A492 /* DriftAnimationImageView-dummy.m in Sources */,
+				904F7CC8D2C021E27269D6C73B4B3B82 /* DriftAnimationImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2CD20C66200C9C183519E1AFB011347B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALCameraViewController;
+			target = DAEFE5845A9A47287B43BE713DFD4B08 /* ALCameraViewController */;
+			targetProxy = 581869A72152733DFD70AA26604D691C /* PBXContainerItemProxy */;
+		};
+		6C4083EFA18DF2BB5195AD7B0EDD1955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DriftAnimationImageView-DriftAnimationImageView";
+			target = 5C30BFF53E4DD37341956FF6E18934A4 /* DriftAnimationImageView-DriftAnimationImageView */;
+			targetProxy = 0176AF079329682EF6ADFAF11944D6B9 /* PBXContainerItemProxy */;
+		};
+		CF5C98F11EB195C3607138909EC2522C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DriftAnimationImageView;
+			target = 21AF02A18277C1BF032A6BE537AD773E /* DriftAnimationImageView */;
+			targetProxy = 720649AAB9AC62144829FBD1EBF6D4BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		1D8B0F26E64144C7955B234A1ECAC927 /* Release */ = {
+		273CEBE442714D18E1A838398CF1B831 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
@@ -371,6 +735,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45273CDE017CAE5B9F3F2A689CDC98CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CAEE48683B56E98819C78C5CA1430A /* DriftAnimationImageView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DriftAnimationImageView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/DriftAnimationImageView/ResourceBundle-DriftAnimationImageView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DriftAnimationImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -416,9 +797,9 @@
 			};
 			name = Debug;
 		};
-		9A6CBD12960A192FFE2F654F09705414 /* Debug */ = {
+		5311AF5C1375D3127103CEBAE164AB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */;
+			baseConfigurationReference = BDDBB155FE32899FCD582CAB63E8DDC3 /* ALCameraViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -429,25 +810,80 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Demo;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F853CA4451DD26A1A3DB1C25AEACF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDBB155FE32899FCD582CAB63E8DDC3 /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALCameraViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		74E4C1B2D0AD43D239A22CEF07C9C618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CAEE48683B56E98819C78C5CA1430A /* DriftAnimationImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DriftAnimationImageView/DriftAnimationImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DriftAnimationImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DriftAnimationImageView/DriftAnimationImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DriftAnimationImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -487,9 +923,99 @@
 			};
 			name = Release;
 		};
+		DAB012FAB1E3C146281E807F8D6C1A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CAEE48683B56E98819C78C5CA1430A /* DriftAnimationImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DriftAnimationImageView/DriftAnimationImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DriftAnimationImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DriftAnimationImageView/DriftAnimationImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DriftAnimationImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1A0AAA5D04D946B51B51EE17518C603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CAEE48683B56E98819C78C5CA1430A /* DriftAnimationImageView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DriftAnimationImageView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/DriftAnimationImageView/ResourceBundle-DriftAnimationImageView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DriftAnimationImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EA3B333D94164672B6781786563F0115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		05D43BC7B5B8FCBF64AEC621BB51742A /* Build configuration list for PBXNativeTarget "DriftAnimationImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB012FAB1E3C146281E807F8D6C1A75 /* Debug */,
+				74E4C1B2D0AD43D239A22CEF07C9C618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -499,11 +1025,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B2C087DFAF69A5D0E6FD22A19EEEB97 /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+		6BA2FC259999CD7A5937B0E53E3A19FE /* Build configuration list for PBXNativeTarget "ALCameraViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A6CBD12960A192FFE2F654F09705414 /* Debug */,
-				1D8B0F26E64144C7955B234A1ECAC927 /* Release */,
+				5311AF5C1375D3127103CEBAE164AB8A /* Debug */,
+				6F853CA4451DD26A1A3DB1C25AEACF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC9A64E80426B1F48EBCB7AC37F674A /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B333D94164672B6781786563F0115 /* Debug */,
+				273CEBE442714D18E1A838398CF1B831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD385230F2112B1B0DDFB316523F1B3D /* Build configuration list for PBXNativeTarget "DriftAnimationImageView-DriftAnimationImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A0AAA5D04D946B51B51EE17518C603 /* Debug */,
+				45273CDE017CAE5B9F3F2A689CDC98CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,4 +1,6 @@
 PODS:
+  - ALCameraViewController (1.2.3)
+  - DriftAnimationImageView (0.1.0)
   - Firebase (3.6.0):
     - Firebase/Core (= 3.6.0)
   - Firebase/Analytics (3.6.0):
@@ -31,11 +33,15 @@ PODS:
     - GoogleSymbolUtilities (~> 1.0)
 
 DEPENDENCIES:
+  - ALCameraViewController (~> 1.2)
+  - DriftAnimationImageView (~> 0.1)
   - Firebase (~> 3.6)
   - Firebase/Database
   - Firebase/Storage
 
 SPEC CHECKSUMS:
+  ALCameraViewController: b890aae2f0b2958346f7ea5ae4f8f2b3ad9d5524
+  DriftAnimationImageView: b2f69a5f16a09e5bc9c7848fc4002fc6078e2dd5
   Firebase: 34187200ef4979dbd485c7aa685ef078bf587c86
   FirebaseAnalytics: 3f5358d9104adf159cc8d99b7b501e50099a39ad
   FirebaseDatabase: 750a4a0fe18ef114318876fd654b2d9c671e0992
@@ -46,6 +52,6 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
 
-PODFILE CHECKSUM: f4a8802cec0b5dd13a0caeb7bd3fa291d437906a
+PODFILE CHECKSUM: 6178029e232f436a09026ac1b07ce8b3f1009a20
 
 COCOAPODS: 1.0.1

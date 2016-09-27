@@ -3,7 +3,6 @@
 //  Demo
 //
 //  Created by GUANJIU ZHANG on 9/25/16.
-//  Copyright © 2016 Conifer-Tech. All rights reserved.
 //
 
 // Application Life Cycle

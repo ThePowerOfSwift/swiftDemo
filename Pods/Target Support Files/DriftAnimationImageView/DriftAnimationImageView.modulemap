@@ -1,0 +1,6 @@
+framework module DriftAnimationImageView {
+  umbrella header "DriftAnimationImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

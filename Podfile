@@ -10,4 +10,6 @@ target 'Demo' do
     pod 'Firebase', '~> 3.6'
     pod 'Firebase/Database'
     pod 'Firebase/Storage'
+    pod 'ALCameraViewController', '~> 1.2'
+    pod 'DriftAnimationImageView', '~> 0.1'
 end

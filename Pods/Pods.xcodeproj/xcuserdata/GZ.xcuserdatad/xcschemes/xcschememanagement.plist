@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ALCameraViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DriftAnimationImageView-DriftAnimationImageView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DriftAnimationImageView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
 		<key>Pods-Demo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6B241D84964029FA5DDC4EC5BE191062</key>
+		<key>21AF02A18277C1BF032A6BE537AD773E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2524C3E801A2BF0C14DED636E11F981E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C30BFF53E4DD37341956FF6E18934A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DAEFE5845A9A47287B43BE713DFD4B08</key>
 		<dict>
 			<key>primary</key>
 			<true/>
