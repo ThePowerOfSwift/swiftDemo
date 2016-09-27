@@ -5,3 +5,6 @@
 ####  - textfields & textfields validation demo
 ####  - database construction demo
 ####  - asynchronous callback (completion block) demo
+#### - Table view basic demo
+#### - Cocoapods dependencies installation demo 
+#### - Present/Dismiss View Controller demo
