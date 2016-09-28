@@ -20,7 +20,8 @@ class MainViewController: UIViewController {
     /// Animating background view
     lazy var animatingBackgroundView: DriftAnimationImageView = {
         let imageView = DriftAnimationImageView(frame: self.view.frame)
-        imageView.image = UIImage(named: "mhacks6")
+        // Place to process image by OpenCV
+        imageView.image = OpenCVWrapper.processImageWithOpenCV(UIImage(named: "mhacks6"))
         imageView.contentMode = .ScaleAspectFill
         return imageView
     }()

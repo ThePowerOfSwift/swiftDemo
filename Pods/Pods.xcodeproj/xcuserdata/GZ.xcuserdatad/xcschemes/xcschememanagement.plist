@@ -27,7 +27,7 @@
 		<key>MBSimpleLoadingIndicator.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Pods-Demo.xcscheme</key>
 		<dict>

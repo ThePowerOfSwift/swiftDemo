@@ -32,6 +32,7 @@ PODS:
   - GoogleUtilities (1.3.1):
     - GoogleSymbolUtilities (~> 1.0)
   - MBSimpleLoadingIndicator (0.1.0)
+  - OpenCV (3.1.0.1)
 
 DEPENDENCIES:
   - ALCameraViewController (~> 1.2)
@@ -40,6 +41,7 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Storage
   - MBSimpleLoadingIndicator (~> 0.1)
+  - OpenCV (~> 3.1)
 
 SPEC CHECKSUMS:
   ALCameraViewController: b890aae2f0b2958346f7ea5ae4f8f2b3ad9d5524
@@ -54,7 +56,8 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
   MBSimpleLoadingIndicator: bb386548fda4a75fd792b1793ac1cd8ff2862cf7
+  OpenCV: 41c4250e2b06a394d6fbb634b5fa622cdd846018
 
-PODFILE CHECKSUM: 40f15039fa996bc18d22abeae30c980f12d7e526
+PODFILE CHECKSUM: 691d9ea8e2090e1285842a3f9acd53c9a8fa3118
 
 COCOAPODS: 1.0.1

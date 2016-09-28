@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		093E724BAAE245FB7F7304E8663F9668 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39854448360ADB4B909DD5A5FCB978E /* UIButtonExtensions.swift */; };
-		0C840B1A1759026F5EBA2113BFA9A492 /* DriftAnimationImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82287BDCA0EE8A981E6249C5699A74F8 /* DriftAnimationImageView-dummy.m */; };
-		0CB770CD249FAA5736ECD96141497AE2 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2E898AC464BD1DEDED6E79BF0F5FA /* SingleImageSaver.swift */; };
-		118DE5355C8C4BC5EBB1C2034E7CC058 /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D65900877C85573C2DFCCE2384502 /* VolumeControl.swift */; };
-		184488E443B6D2A85DA45AD3D21245B1 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882F7FAB6EE11E2D9354DF5B8B5469 /* CameraGlobals.swift */; };
-		1D1FE38C62B9D2AD8E29A04949DD1C6F /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC8B10B67BEA067FAC87A84B8DA1280 /* SingleImageFetcher.swift */; };
-		21B9C65EB3542F7DF279B8090F165EBD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DF41DCCCC8CA4946E2AE3E0609FD1E /* UIViewExtensions.swift */; };
-		2504AAC39821B31503B0CB2A99241D97 /* MBLoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD042BA0922A210E6632AB3F17BF776 /* MBLoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29880E5ABF060C5BD17C0606DBE10D7B /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41CBA9CE76E5DA74B2420878CFB84BC /* ImageFetcher.swift */; };
-		2AC46474B4B193A0BE50D3AA7280190E /* MBSimpleLoadingIndicator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA996B8189B3D37622DE4888B279E0E6 /* MBSimpleLoadingIndicator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32ACAD182A9C90C563170CF45CC65A5C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2C75BAC23B2996C18C30043244297 /* CameraViewController.swift */; };
+		093E724BAAE245FB7F7304E8663F9668 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C7B82E5B754D19192E149B50C36B9 /* UIButtonExtensions.swift */; };
+		0C840B1A1759026F5EBA2113BFA9A492 /* DriftAnimationImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CB23984BA5636AA1E5457AB6C8D7C /* DriftAnimationImageView-dummy.m */; };
+		0CB770CD249FAA5736ECD96141497AE2 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD92856C3FDD72D178102C69B9FC414 /* SingleImageSaver.swift */; };
+		118DE5355C8C4BC5EBB1C2034E7CC058 /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E12DFDCA83C24BDD7C18FBB25E7E94 /* VolumeControl.swift */; };
+		184488E443B6D2A85DA45AD3D21245B1 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8438D1041FFEC0D5F133AA88E3F9AB /* CameraGlobals.swift */; };
+		1D1FE38C62B9D2AD8E29A04949DD1C6F /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3846B9038748631ADBC1060DAE0EAC2B /* SingleImageFetcher.swift */; };
+		21B9C65EB3542F7DF279B8090F165EBD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7504DE32141879BE90288EA917C7D750 /* UIViewExtensions.swift */; };
+		2504AAC39821B31503B0CB2A99241D97 /* MBLoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEB703EEFF1ECFD77815BBD87FB0558 /* MBLoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29880E5ABF060C5BD17C0606DBE10D7B /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8986752BD90862668DCA14A0E2D536 /* ImageFetcher.swift */; };
+		2AC46474B4B193A0BE50D3AA7280190E /* MBSimpleLoadingIndicator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A7E0128582249566FD6ACB7D3E24C6 /* MBSimpleLoadingIndicator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32ACAD182A9C90C563170CF45CC65A5C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5FEFA474D39AD577511A24FD2F9FD /* CameraViewController.swift */; };
 		32E1AD3E5E8DC870D5CBFCA8EB92D194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
 		396F432BB9F8F9A32B75D4788444D8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		3AB8980724808427937EC099A399DF0E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2AC7C50A22B3863737B4C981FBB085 /* ImageCell.swift */; };
-		45E1DF3AA2D60E7402D56EE637898FF6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D809316EFB396D01486905C015D00564 /* ConfirmViewController.swift */; };
-		4B269231C2480CC01BFD593CCA0E7727 /* MBLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF39871394C96FCA3848A83A2C77F221 /* MBLoadingIndicator.m */; };
-		4C115F1FF41B66803D010883277F87E2 /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D0FA600C132FAA5DE76D477F207FF3 /* CameraViewAssets.xcassets */; };
-		571340FD7CCFE8BAC3A2F08E0CD9CED5 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD974553E0741FD75118DD5A6EF6052 /* PhotoLibraryViewController.swift */; };
-		705D53790CC8B18997358B20F268F7F3 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449C6C4241989E5E21C9AAFD1113A4F4 /* CropOverlay.swift */; };
-		728A45B8B971047BDB308AE2141F3DC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29349FCA6532C1A819863B5FB6A5B9D1 /* Utilities.swift */; };
-		74330B2C76254F31F8E40DA2F04F05E3 /* MBSimpleLoadingIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB5B19D1F7EEFF2176B6AE091DF9EB /* MBSimpleLoadingIndicator-dummy.m */; };
-		79A19228C1166CE5B1D5E857B2F94173 /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D60CDFE20E188697C5EDE993427F1A /* ALCameraViewController-dummy.m */; };
+		3AB8980724808427937EC099A399DF0E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89671EA779B1F0701665E7423F3914 /* ImageCell.swift */; };
+		45E1DF3AA2D60E7402D56EE637898FF6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5014CE22AFF5A651F3E8E58D5D2E5 /* ConfirmViewController.swift */; };
+		4B269231C2480CC01BFD593CCA0E7727 /* MBLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CA70DF131497B2968129DA8CCB3E6D /* MBLoadingIndicator.m */; };
+		4C115F1FF41B66803D010883277F87E2 /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53E9EE0046AAE124AEDD62D88412ADE /* CameraViewAssets.xcassets */; };
+		571340FD7CCFE8BAC3A2F08E0CD9CED5 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A39F31ED21ADA9F948506A58DDBCC86 /* PhotoLibraryViewController.swift */; };
+		705D53790CC8B18997358B20F268F7F3 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E497F115E251B6DAF4E6316C9A751A04 /* CropOverlay.swift */; };
+		728A45B8B971047BDB308AE2141F3DC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E305E4BB260FD36EF8B734A2C006D8B2 /* Utilities.swift */; };
+		74330B2C76254F31F8E40DA2F04F05E3 /* MBSimpleLoadingIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9006AA814011C19AEC94F3936556CE /* MBSimpleLoadingIndicator-dummy.m */; };
+		79A19228C1166CE5B1D5E857B2F94173 /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 790E751ED6871D3097A9122236917906 /* ALCameraViewController-dummy.m */; };
 		7A2C01A7050FEC37AD2A00BAD120DBDD /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */; };
 		876217D59179843014F1B6ABA914789F /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D3AEE22F4499ACE6458FE363F11E59B /* DriftAnimationImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DCA57B046ACDFA008670BA9D4F5E91 /* DriftAnimationImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F4A966830ABFC9639F5250B2AE9DF7B /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB556AC21C65F9A86AA333124628E4F /* CameraShot.swift */; };
-		904F7CC8D2C021E27269D6C73B4B3B82 /* DriftAnimationImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0139B1CA11530BD781AD151C43911738 /* DriftAnimationImageView.swift */; };
+		8D3AEE22F4499ACE6458FE363F11E59B /* DriftAnimationImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 382CB5D0FC22B42CCEABD2BE50914934 /* DriftAnimationImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4A966830ABFC9639F5250B2AE9DF7B /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE784495F676603F123199FAFBA658D /* CameraShot.swift */; };
+		904F7CC8D2C021E27269D6C73B4B3B82 /* DriftAnimationImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D90339B130A95CE9F7D5806051F7764 /* DriftAnimationImageView.swift */; };
 		977CBDF8E3C7D65B50C0F5A0B2DDB731 /* MBSimpleLoadingIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DF8418A53A77105A9D005BD9353F9A9 /* MBSimpleLoadingIndicator.bundle */; };
-		A940E8F9C140B8C66EFF4D1483297520 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F7C15E7481FACE92D6959CCD5FC011 /* CameraView.swift */; };
-		B3AB8B9A6BF3D7C6AD248D750C4AF3DA /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5C4B739806CA1580806FA737D3EA94A /* CameraView.strings */; };
-		B792160E0DF8BABD00BA2D01D992572E /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A224373CD337A13C3A03A472B7E5D06 /* PhotoLibraryAuthorizer.swift */; };
-		D949A968AD3CDC949C94394BDFD02B65 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C69AD9A5BECC075FE83C99A088FF9ACF /* ConfirmViewController.xib */; };
-		E2560A7275A61939751F09B8163EBA16 /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADEEB6DD3499D92F24F0DCE1CC57AD /* CameraViewControllerConstraint.swift */; };
-		E5F334E181A8EDCE0B0CE084957957A7 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B365924F92DB4D6D4473B8F9A82F770 /* PermissionsView.swift */; };
+		A940E8F9C140B8C66EFF4D1483297520 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5937E242C4CB3880F3FBAAE72A757788 /* CameraView.swift */; };
+		B3AB8B9A6BF3D7C6AD248D750C4AF3DA /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 714DB1810F43505CBAF6522EE2C82560 /* CameraView.strings */; };
+		B792160E0DF8BABD00BA2D01D992572E /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714AB9D5A4D7D7F56FE0B95614B0B9C /* PhotoLibraryAuthorizer.swift */; };
+		D949A968AD3CDC949C94394BDFD02B65 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FF1A1A0B891B03A0DB76D522C5677 /* ConfirmViewController.xib */; };
+		E2560A7275A61939751F09B8163EBA16 /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260D1112C44AF158120FBCED75DACB0 /* CameraViewControllerConstraint.swift */; };
+		E5F334E181A8EDCE0B0CE084957957A7 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107451EFBDAC7A59C4BBD69443F0804E /* PermissionsView.swift */; };
 		E832822830DE8C8A593312C50B2A92C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
 		E9B24512189B682A1546E46C5B052531 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
 		EC83239D293E4EFE736CD4DCCBF9F716 /* DriftAnimationImageView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8D17A60964A8B2E34D1A9EC85A3A7ED /* DriftAnimationImageView.bundle */; };
 		F3224858C13E9A856221115004589F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		F3ED4024EBF978156D113F80A7792AC7 /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A15E6BC28C56A7515A0E08EB37AB5007 /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3ED4024EBF978156D113F80A7792AC7 /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BDFB9441CC4DEFA636DF2F0047914D /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,79 +87,237 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0139B1CA11530BD781AD151C43911738 /* DriftAnimationImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DriftAnimationImageView.swift; path = Pod/Classes/DriftAnimationImageView.swift; sourceTree = "<group>"; };
-		01D0FA600C132FAA5DE76D477F207FF3 /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		00B233900E284DB1AA6527E8849A41E6 /* frame_source.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = frame_source.hpp; path = opencv2.framework/Versions/A/Headers/videostab/frame_source.hpp; sourceTree = "<group>"; };
+		01F3FDF6113723F65366926F49F7F9FD /* imgcodecs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgcodecs.hpp; path = opencv2.framework/Versions/A/Headers/imgcodecs.hpp; sourceTree = "<group>"; };
 		03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
-		0A205228E98750DC5D5E1DDF6F97DA02 /* DriftAnimationImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DriftAnimationImageView.xcconfig; sourceTree = "<group>"; };
+		0431B9615B26AB5B19D56B3C409D4C6F /* cap_ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cap_ios.h; path = opencv2.framework/Versions/A/Headers/videoio/cap_ios.h; sourceTree = "<group>"; };
+		044EE820DB5235B26E4B801A1C61AE99 /* cuda_stream_accessor.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda_stream_accessor.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda_stream_accessor.hpp; sourceTree = "<group>"; };
+		04F7BA7CB4524C0F7EB5D4D0C36E8333 /* ml.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ml.hpp; path = opencv2.framework/Versions/A/Headers/ml.hpp; sourceTree = "<group>"; };
+		05A85D9DA5E4A68034CD5944CB107B22 /* autocalib.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = autocalib.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/autocalib.hpp; sourceTree = "<group>"; };
+		0780B0547EEB30D7413330FC3F1DB4D0 /* opengl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opengl.hpp; path = opencv2.framework/Versions/A/Headers/core/opengl.hpp; sourceTree = "<group>"; };
+		08A5EC7C0001F7DF546684B889E18EC0 /* cvconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cvconfig.h; path = opencv2.framework/Versions/A/Headers/cvconfig.h; sourceTree = "<group>"; };
+		0A5668A8DB5CB8C23E2B9BE06C30BD91 /* MBSimpleLoadingIndicator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBSimpleLoadingIndicator.modulemap; sourceTree = "<group>"; };
+		0D0AB3F870E948E4C7872F3C4051DC75 /* shape_distance.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = shape_distance.hpp; path = opencv2.framework/Versions/A/Headers/shape/shape_distance.hpp; sourceTree = "<group>"; };
+		0DB01051F48F22A7101B679DC88CC307 /* features2d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = features2d.hpp; path = opencv2.framework/Versions/A/Headers/features2d/features2d.hpp; sourceTree = "<group>"; };
 		0DF8418A53A77105A9D005BD9353F9A9 /* MBSimpleLoadingIndicator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBSimpleLoadingIndicator.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		15422A0537839007ED8A6CE76840BAB4 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		0E145CC3A5AAA2E2DB851EFCE5E7708A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4B2304BF5BB86CB075D1D7575988F9 /* calib3d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = calib3d.hpp; path = opencv2.framework/Versions/A/Headers/calib3d/calib3d.hpp; sourceTree = "<group>"; };
+		107451EFBDAC7A59C4BBD69443F0804E /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
+		14720C799C6BC64B8736A2E77C9FF08A /* core_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = core_c.h; path = opencv2.framework/Versions/A/Headers/core/core_c.h; sourceTree = "<group>"; };
+		152664D335B81B08B513D8DB5707E8E0 /* ml.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ml.hpp; path = opencv2.framework/Versions/A/Headers/ml/ml.hpp; sourceTree = "<group>"; };
+		16777704C3A2E04A87C14E857B2C45C8 /* world.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = world.hpp; path = opencv2.framework/Versions/A/Headers/world.hpp; sourceTree = "<group>"; };
+		16B00610A2ED670CC58346BC94A2F2C8 /* util_inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = util_inl.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/util_inl.hpp; sourceTree = "<group>"; };
+		16D3FDD6970F91E6F22A48722707DDE7 /* ocl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ocl.hpp; path = opencv2.framework/Versions/A/Headers/core/ocl.hpp; sourceTree = "<group>"; };
 		19A4B9F6DCDE63A64230370FB114793B /* MBSimpleLoadingIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBSimpleLoadingIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F03935E367CFBED243049CCA67C4F3F /* ResourceBundle-DriftAnimationImageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DriftAnimationImageView-Info.plist"; sourceTree = "<group>"; };
-		29349FCA6532C1A819863B5FB6A5B9D1 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
-		2EC8B10B67BEA067FAC87A84B8DA1280 /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		1A32ECA00DD19B29B6ACFA74A64BC57E /* neon_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = neon_utils.hpp; path = opencv2.framework/Versions/A/Headers/core/neon_utils.hpp; sourceTree = "<group>"; };
+		1CA9D113E0CABEF44BAC952875CCF900 /* flann_base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = flann_base.hpp; path = opencv2.framework/Versions/A/Headers/flann/flann_base.hpp; sourceTree = "<group>"; };
+		1DB702CE32836D963E22604E4F7C3687 /* hdf5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hdf5.h; path = opencv2.framework/Versions/A/Headers/flann/hdf5.h; sourceTree = "<group>"; };
+		1F83AFE8A61930BF763B9763E0E73CD7 /* DriftAnimationImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DriftAnimationImageView.xcconfig; sourceTree = "<group>"; };
+		1FF4AD02B18E4C46BB1B9615AABE9F80 /* eigen.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = eigen.hpp; path = opencv2.framework/Versions/A/Headers/core/eigen.hpp; sourceTree = "<group>"; };
+		268E44E82B86A638754F2376C67CB104 /* emdL1.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = emdL1.hpp; path = opencv2.framework/Versions/A/Headers/shape/emdL1.hpp; sourceTree = "<group>"; };
+		27F54BAEC5F417BE95924AA004F92719 /* optim.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = optim.hpp; path = opencv2.framework/Versions/A/Headers/core/optim.hpp; sourceTree = "<group>"; };
+		2AB298B608F2DEE3E8D6313EFBF09468 /* camera.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = camera.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/camera.hpp; sourceTree = "<group>"; };
+		2D95AD6CDAC26E2961C1A41324AE3114 /* calib3d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = calib3d.hpp; path = opencv2.framework/Versions/A/Headers/calib3d.hpp; sourceTree = "<group>"; };
+		2F0483B2091DA0D8313ECBF266693099 /* video.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = video.hpp; path = opencv2.framework/Versions/A/Headers/video.hpp; sourceTree = "<group>"; };
+		304230995587C85666AFE37FB5FC7FEE /* videoio_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videoio_c.h; path = opencv2.framework/Versions/A/Headers/videoio/videoio_c.h; sourceTree = "<group>"; };
+		3106A850C70B10B0FDCC20D9C2DC972C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
-		35DF41DCCCC8CA4946E2AE3E0609FD1E /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
-		375B008CF2DE366E6E308DC4FC639961 /* DriftAnimationImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriftAnimationImageView-prefix.pch"; sourceTree = "<group>"; };
+		34812CE697CA8C7A5C3B8305A5779F69 /* videoio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = videoio.hpp; path = opencv2.framework/Versions/A/Headers/videoio/videoio.hpp; sourceTree = "<group>"; };
+		351DEF5724E496DD1AB301DE19AE2D65 /* stitching.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = stitching.hpp; path = opencv2.framework/Versions/A/Headers/stitching.hpp; sourceTree = "<group>"; };
+		361DC8D064F1195E924338D736C3BB62 /* dummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dummy.h; path = opencv2.framework/Versions/A/Headers/flann/dummy.h; sourceTree = "<group>"; };
+		36F5FEFA474D39AD577511A24FD2F9FD /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		37308D7C2CE603E675298EA23E01DB12 /* random.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random.h; path = opencv2.framework/Versions/A/Headers/flann/random.h; sourceTree = "<group>"; };
+		3762ADC757C4C30DE9B68A0D778EB9CF /* affine.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = affine.hpp; path = opencv2.framework/Versions/A/Headers/core/affine.hpp; sourceTree = "<group>"; };
+		377DC389BC038EF41DC08D76A74B37A5 /* stabilizer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = stabilizer.hpp; path = opencv2.framework/Versions/A/Headers/videostab/stabilizer.hpp; sourceTree = "<group>"; };
+		37ACCD3ECB64B86D196D512719D20F3D /* features2d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = features2d.hpp; path = opencv2.framework/Versions/A/Headers/features2d.hpp; sourceTree = "<group>"; };
+		37E0C04A76EB2B5761A3CD97F4376446 /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/core/core.hpp; sourceTree = "<group>"; };
+		382CB5D0FC22B42CCEABD2BE50914934 /* DriftAnimationImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriftAnimationImageView-umbrella.h"; sourceTree = "<group>"; };
+		3846B9038748631ADBC1060DAE0EAC2B /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		38FB2EBCEABA3C0E6DA2E76422C383F6 /* persistence.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = persistence.hpp; path = opencv2.framework/Versions/A/Headers/core/persistence.hpp; sourceTree = "<group>"; };
+		39883BB35F21FC2A09E7069A215736C6 /* matrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = opencv2.framework/Versions/A/Headers/flann/matrix.h; sourceTree = "<group>"; };
+		3B05464D2169ECD0F4CC83478D699496 /* sse_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = sse_utils.hpp; path = opencv2.framework/Versions/A/Headers/core/sse_utils.hpp; sourceTree = "<group>"; };
+		3B6BBC665F1200D5B896942BC6078EE0 /* fast_marching.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = fast_marching.hpp; path = opencv2.framework/Versions/A/Headers/videostab/fast_marching.hpp; sourceTree = "<group>"; };
+		3C6FCF58BC8957BC313CDF855016BCE9 /* hierarchical_clustering_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hierarchical_clustering_index.h; path = opencv2.framework/Versions/A/Headers/flann/hierarchical_clustering_index.h; sourceTree = "<group>"; };
 		3CD5A30239C90F1B549B4AB9299ECF16 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		3CEB703EEFF1ECFD77815BBD87FB0558 /* MBLoadingIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLoadingIndicator.h; path = Pod/Classes/MBLoadingIndicator.h; sourceTree = "<group>"; };
+		3D6376CF0CEF7AD878151F48720B9604 /* result_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = result_set.h; path = opencv2.framework/Versions/A/Headers/flann/result_set.h; sourceTree = "<group>"; };
 		3D653C9DA16200D75AD14323AA830C6B /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
-		3EDA9A157B1260A0068A0E5A5737ADD7 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
-		3FA2E898AC464BD1DEDED6E79BF0F5FA /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
-		449C6C4241989E5E21C9AAFD1113A4F4 /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
-		486938B45527A524CDAAEDA8C483A9A3 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
-		4A224373CD337A13C3A03A472B7E5D06 /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
-		4A2D9DF2FF95FCA03F10E2A1F6358717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5602DFD57EC1CAD6F48159801E3C9235 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59F819849229D1A8B928A86B267447DC /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		5AD974553E0741FD75118DD5A6EF6052 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		41B1344A9113A832BCE7E162B4C3DB68 /* shape_transformer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = shape_transformer.hpp; path = opencv2.framework/Versions/A/Headers/shape/shape_transformer.hpp; sourceTree = "<group>"; };
+		41C02A401A5AC7502EFE4CE1935B20EC /* cvdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cvdef.h; path = opencv2.framework/Versions/A/Headers/core/cvdef.h; sourceTree = "<group>"; };
+		4460C6CD918315FE0DF65C3876DBD631 /* any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = any.h; path = opencv2.framework/Versions/A/Headers/flann/any.h; sourceTree = "<group>"; };
+		44887EDFBCEAB449A4E41F1CA3E93B0C /* cuda.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda.hpp; path = opencv2.framework/Versions/A/Headers/photo/cuda.hpp; sourceTree = "<group>"; };
+		46E7B61EB4C4A2B29D96A8C51B15DDFF /* imgcodecs_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgcodecs_c.h; path = opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs_c.h; sourceTree = "<group>"; };
+		48085A1EB0F8EE02C204646B73CB111B /* types_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types_c.h; path = opencv2.framework/Versions/A/Headers/core/types_c.h; sourceTree = "<group>"; };
+		4A0F37BFE5A3B790E9AE7C3ED323CAA1 /* warpers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = warpers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/warpers.hpp; sourceTree = "<group>"; };
+		4ACD9848AAB9D160A600E90796A3245E /* highgui.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = highgui.hpp; path = opencv2.framework/Versions/A/Headers/highgui/highgui.hpp; sourceTree = "<group>"; };
+		4BC6F73CAD05EB80185233DEA63F5F1B /* global_motion.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = global_motion.hpp; path = opencv2.framework/Versions/A/Headers/videostab/global_motion.hpp; sourceTree = "<group>"; };
+		4BEF0F442753BA1E8B8FD9BFB6B1668D /* cuda.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda.inl.hpp; sourceTree = "<group>"; };
+		4CB06704039774F20ABC0B5FEBE421BB /* ptr.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ptr.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/ptr.inl.hpp; sourceTree = "<group>"; };
+		4D166C27064D4E1E819C99A827713EEA /* tracking_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tracking_c.h; path = opencv2.framework/Versions/A/Headers/video/tracking_c.h; sourceTree = "<group>"; };
+		4ED0FA5FA0797D9B5992E1FA2FD38C98 /* shape.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = shape.hpp; path = opencv2.framework/Versions/A/Headers/shape.hpp; sourceTree = "<group>"; };
+		50EFEEBF2564F8861A693393F1208436 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		53CD51DC31070A23C1B564350B12C1D3 /* traits.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = traits.hpp; path = opencv2.framework/Versions/A/Headers/core/traits.hpp; sourceTree = "<group>"; };
+		53D40C61FDB19A48527C6F56B7C2059D /* general.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = general.h; path = opencv2.framework/Versions/A/Headers/flann/general.h; sourceTree = "<group>"; };
+		5431A4A4E9E32F234129049F941F872B /* utility.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = utility.hpp; path = opencv2.framework/Versions/A/Headers/core/utility.hpp; sourceTree = "<group>"; };
+		5587A29AA3DA65512C3A97F1DB4C4F2B /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		58AF5B08C6671C8DA8569F5EF614A8C4 /* dist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dist.h; path = opencv2.framework/Versions/A/Headers/flann/dist.h; sourceTree = "<group>"; };
+		5937E242C4CB3880F3FBAAE72A757788 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
+		5C1FBF6FB32E32D8FAE3638C0363ABE9 /* private.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = private.hpp; path = opencv2.framework/Versions/A/Headers/core/private.hpp; sourceTree = "<group>"; };
+		5E127403EC370F6FE26946EDC951E66C /* saving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = saving.h; path = opencv2.framework/Versions/A/Headers/flann/saving.h; sourceTree = "<group>"; };
+		5E80F2A24A8A38DA261BB8699F86869A /* cuda_types.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda_types.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda_types.hpp; sourceTree = "<group>"; };
+		5EFB05072C4F2438E6FF5D983EAF6C2B /* outlier_rejection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = outlier_rejection.hpp; path = opencv2.framework/Versions/A/Headers/videostab/outlier_rejection.hpp; sourceTree = "<group>"; };
+		5F297BB2FE56B74E216A4A2FC20A7B7F /* nn_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nn_index.h; path = opencv2.framework/Versions/A/Headers/flann/nn_index.h; sourceTree = "<group>"; };
+		5F67C3DF7EC497F0EC62A079E152A025 /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/core.hpp; sourceTree = "<group>"; };
+		603F99559C3B5737692B4DD4281F6A4C /* flann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = flann.hpp; path = opencv2.framework/Versions/A/Headers/flann/flann.hpp; sourceTree = "<group>"; };
+		62138D7FAB2DE1F1EFFA10A0BB6D2811 /* object_factory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = object_factory.h; path = opencv2.framework/Versions/A/Headers/flann/object_factory.h; sourceTree = "<group>"; };
+		63D7EDE3C8F1A8C3BD899B6A450526B9 /* cvstd.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cvstd.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/cvstd.inl.hpp; sourceTree = "<group>"; };
+		6462CD8582A2CD91BD4BA94FA3D593D0 /* all_indices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = all_indices.h; path = opencv2.framework/Versions/A/Headers/flann/all_indices.h; sourceTree = "<group>"; };
+		64F693F1F10C2DA78DF3491F623F0534 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		65A7E0128582249566FD6ACB7D3E24C6 /* MBSimpleLoadingIndicator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBSimpleLoadingIndicator-umbrella.h"; sourceTree = "<group>"; };
+		65F261AAA2DF19D95C6BB12E02FF4F41 /* exposure_compensate.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = exposure_compensate.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/exposure_compensate.hpp; sourceTree = "<group>"; };
+		67675114EB081AE3CF57D13316A48677 /* lsh_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lsh_table.h; path = opencv2.framework/Versions/A/Headers/flann/lsh_table.h; sourceTree = "<group>"; };
+		706E6742DE3208B9BFB44CBF9E476BC0 /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timer.h; path = opencv2.framework/Versions/A/Headers/flann/timer.h; sourceTree = "<group>"; };
+		714DB1810F43505CBAF6522EE2C82560 /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
 		71940C1CEB7995DC34CFE54CAF1AEF88 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73D60CDFE20E188697C5EDE993427F1A /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
-		7B59FA6936DD3840A9AF9498FCC7DA04 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		7F9D2E0CAC4CAAB4ECC1EE8C3243AE97 /* MBSimpleLoadingIndicator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBSimpleLoadingIndicator.modulemap; sourceTree = "<group>"; };
-		82287BDCA0EE8A981E6249C5699A74F8 /* DriftAnimationImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DriftAnimationImageView-dummy.m"; sourceTree = "<group>"; };
-		84B35EEB5159BEF87761835E63B04F76 /* MBSimpleLoadingIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBSimpleLoadingIndicator-prefix.pch"; sourceTree = "<group>"; };
-		857AAC5D9591F3CE165D5BE3ECEA7986 /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
-		86DCA57B046ACDFA008670BA9D4F5E91 /* DriftAnimationImageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriftAnimationImageView-umbrella.h"; sourceTree = "<group>"; };
-		87882F7FAB6EE11E2D9354DF5B8B5469 /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
-		8C66BF498F3DE9E1388E7B4E19A86FD8 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		734ECFF99E21B60A33B03A9E9EFDDDCD /* videoio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = videoio.hpp; path = opencv2.framework/Versions/A/Headers/videoio.hpp; sourceTree = "<group>"; };
+		742C975BCC2D2583FF4D52DA75697A80 /* sampling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sampling.h; path = opencv2.framework/Versions/A/Headers/flann/sampling.h; sourceTree = "<group>"; };
+		7504DE32141879BE90288EA917C7D750 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
+		77311434B91371942A05CDDA8CEE0FF2 /* optical_flow.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = optical_flow.hpp; path = opencv2.framework/Versions/A/Headers/videostab/optical_flow.hpp; sourceTree = "<group>"; };
+		790E751ED6871D3097A9122236917906 /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		7A0D246575BA0FB4328F4A95CF98C764 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		7A39F31ED21ADA9F948506A58DDBCC86 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		7BD25A6A51A304699176569F71C98094 /* shape.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = shape.hpp; path = opencv2.framework/Versions/A/Headers/shape/shape.hpp; sourceTree = "<group>"; };
+		7BD4DEB72C69E2194A545C4A75783447 /* fast_math.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = fast_math.hpp; path = opencv2.framework/Versions/A/Headers/core/fast_math.hpp; sourceTree = "<group>"; };
+		7C0C7B82E5B754D19192E149B50C36B9 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		7C6861284041242EE637C2B68E742021 /* defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = defines.h; path = opencv2.framework/Versions/A/Headers/flann/defines.h; sourceTree = "<group>"; };
+		7CA5D1624B7DF70405598DE8C9CFCAF3 /* deblurring.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = deblurring.hpp; path = opencv2.framework/Versions/A/Headers/videostab/deblurring.hpp; sourceTree = "<group>"; };
+		7D22845209CF213C83036814F60E9676 /* va_intel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = va_intel.hpp; path = opencv2.framework/Versions/A/Headers/core/va_intel.hpp; sourceTree = "<group>"; };
+		7F5FD6031C275620EF878E58C34C8404 /* motion_estimators.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = motion_estimators.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/motion_estimators.hpp; sourceTree = "<group>"; };
+		80994EBE8E551BE2E557AAFF67C393ED /* distortion_model.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = distortion_model.hpp; path = opencv2.framework/Versions/A/Headers/imgproc/detail/distortion_model.hpp; sourceTree = "<group>"; };
+		81A1EEA86073569C977E46C55EAA4A77 /* seam_finders.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = seam_finders.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/seam_finders.hpp; sourceTree = "<group>"; };
+		81EC56687E28D60D328D6C5BB40B4BA2 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = opencv2.framework/Versions/A/Headers/flann/config.h; sourceTree = "<group>"; };
+		826642ED25A8F5D810FDB22A5A40B0BA /* background_segm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = background_segm.hpp; path = opencv2.framework/Versions/A/Headers/video/background_segm.hpp; sourceTree = "<group>"; };
+		82E9BEA5EA71B5206EEC5EFFF31A68CE /* ResourceBundle-DriftAnimationImageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DriftAnimationImageView-Info.plist"; sourceTree = "<group>"; };
+		8442983DB92F1C495274703A48045CCC /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		844B08EF9A98F3553A5A45AF9FEB852E /* matx.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = matx.hpp; path = opencv2.framework/Versions/A/Headers/core/matx.hpp; sourceTree = "<group>"; };
+		84EB1902590365767E1095A6A6B417E0 /* interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interface.h; path = opencv2.framework/Versions/A/Headers/core/hal/interface.h; sourceTree = "<group>"; };
+		8535923A9287FBCBAA11F289FEC96C7D /* intrin_cpp.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_cpp.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_cpp.hpp; sourceTree = "<group>"; };
+		86CA70DF131497B2968129DA8CCB3E6D /* MBLoadingIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBLoadingIndicator.m; path = Pod/Classes/MBLoadingIndicator.m; sourceTree = "<group>"; };
+		8714AB9D5A4D7D7F56FE0B95614B0B9C /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		89EE0885492C8E32155E05B42B73A1A7 /* miniflann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = miniflann.hpp; path = opencv2.framework/Versions/A/Headers/flann/miniflann.hpp; sourceTree = "<group>"; };
+		8AE49417816F319F2D91F82DE4EB4E31 /* ground_truth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ground_truth.h; path = opencv2.framework/Versions/A/Headers/flann/ground_truth.h; sourceTree = "<group>"; };
+		8C8E8F80872B3678658F235196861A1E /* allocator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allocator.h; path = opencv2.framework/Versions/A/Headers/flann/allocator.h; sourceTree = "<group>"; };
+		8D41A2EBEC5D3CFE6538CA861D76A7ED /* linear_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linear_index.h; path = opencv2.framework/Versions/A/Headers/flann/linear_index.h; sourceTree = "<group>"; };
+		8D960FF4CA908B2F3334679251708FFB /* base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = base.hpp; path = opencv2.framework/Versions/A/Headers/core/base.hpp; sourceTree = "<group>"; };
+		8E157F4015006C0D0C5E2E41CEB35A63 /* objdetect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = objdetect.hpp; path = opencv2.framework/Versions/A/Headers/objdetect/objdetect.hpp; sourceTree = "<group>"; };
 		8EF5CF1FA1FBF0D4E80AD5F2E849A799 /* DriftAnimationImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DriftAnimationImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1947FE405C9A22A6A036B724188C31 /* video.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = video.hpp; path = opencv2.framework/Versions/A/Headers/video/video.hpp; sourceTree = "<group>"; };
+		8F3FBC2183862309C21BD968A77A4E1B /* highgui.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = highgui.hpp; path = opencv2.framework/Versions/A/Headers/highgui.hpp; sourceTree = "<group>"; };
+		8FBD689C4C4A35BFC399CF8C8858D7A1 /* types_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types_c.h; path = opencv2.framework/Versions/A/Headers/imgproc/types_c.h; sourceTree = "<group>"; };
+		90A67BA7903CCC83D1E581FBABFBD42B /* fast_marching_inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = fast_marching_inl.hpp; path = opencv2.framework/Versions/A/Headers/videostab/fast_marching_inl.hpp; sourceTree = "<group>"; };
+		90CA4E8E18ADE22027BE99C6C9CB7E84 /* calib3d_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = calib3d_c.h; path = opencv2.framework/Versions/A/Headers/calib3d/calib3d_c.h; sourceTree = "<group>"; };
+		91DB2E8E842EEDC6D41F53B16B53DBC0 /* videostab.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = videostab.hpp; path = opencv2.framework/Versions/A/Headers/videostab.hpp; sourceTree = "<group>"; };
+		920EBC32649EEDAE40DA3656A4D6052E /* simplex_downhill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simplex_downhill.h; path = opencv2.framework/Versions/A/Headers/flann/simplex_downhill.h; sourceTree = "<group>"; };
+		92C0C3DCD3F261923301B05BBBFC2B5F /* tracking.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = tracking.hpp; path = opencv2.framework/Versions/A/Headers/video/tracking.hpp; sourceTree = "<group>"; };
+		92EC8192FD68E7A5168AD56D33B48E82 /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96F7C15E7481FACE92D6959CCD5FC011 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
-		980EE31864F864003D18FBF69FF976D6 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		9B365924F92DB4D6D4473B8F9A82F770 /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
-		9BADEEB6DD3499D92F24F0DCE1CC57AD /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
-		A15E6BC28C56A7515A0E08EB37AB5007 /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		951649B4B81D66247118ED648F09CFF4 /* ring_buffer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ring_buffer.hpp; path = opencv2.framework/Versions/A/Headers/videostab/ring_buffer.hpp; sourceTree = "<group>"; };
+		95CD8882552352434B1BBBF426A8C575 /* intrin.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin.hpp; sourceTree = "<group>"; };
+		986DD69024648F648E4950DA07F394D1 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		9BEB7729F9E3C9894F0B6945D516C402 /* kdtree_single_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdtree_single_index.h; path = opencv2.framework/Versions/A/Headers/flann/kdtree_single_index.h; sourceTree = "<group>"; };
+		9D90339B130A95CE9F7D5806051F7764 /* DriftAnimationImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DriftAnimationImageView.swift; path = Pod/Classes/DriftAnimationImageView.swift; sourceTree = "<group>"; };
+		9FA34695B14C79A396EB0B7E83CDB11B /* photo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = photo.hpp; path = opencv2.framework/Versions/A/Headers/photo.hpp; sourceTree = "<group>"; };
+		9FB5014CE22AFF5A651F3E8E58D5D2E5 /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
 		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A5C4B739806CA1580806FA737D3EA94A /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
-		BA0C258F7ACBE11CAD4884B82B0FED67 /* DriftAnimationImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DriftAnimationImageView.modulemap; sourceTree = "<group>"; };
-		BF39871394C96FCA3848A83A2C77F221 /* MBLoadingIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBLoadingIndicator.m; path = Pod/Classes/MBLoadingIndicator.m; sourceTree = "<group>"; };
-		C0E1C4FFFB21DB2F4A48970A242F95DC /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
-		C39854448360ADB4B909DD5A5FCB978E /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		A2C52A18D0DF2C384EC3A2C60B21F59E /* operations.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = operations.hpp; path = opencv2.framework/Versions/A/Headers/core/operations.hpp; sourceTree = "<group>"; };
+		A2C7ED544A504479F3C2C659F28902A3 /* mat.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = mat.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/mat.inl.hpp; sourceTree = "<group>"; };
+		A2CD70B8C7CAD543F917ACA5D45BF90D /* warpers_inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = warpers_inl.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/warpers_inl.hpp; sourceTree = "<group>"; };
+		A31802164FD3BB35909C393DF38D51E7 /* logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = logger.h; path = opencv2.framework/Versions/A/Headers/flann/logger.h; sourceTree = "<group>"; };
+		A440E96688C563F70C3698E2A31DF774 /* ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ios.h; path = opencv2.framework/Versions/A/Headers/imgcodecs/ios.h; sourceTree = "<group>"; };
+		A6738B2CC2C6E8C5395F57FE05144611 /* bufferpool.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = bufferpool.hpp; path = opencv2.framework/Versions/A/Headers/core/bufferpool.hpp; sourceTree = "<group>"; };
+		A6B87B730D91C6BE6351D374633AA82C /* motion_stabilizing.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = motion_stabilizing.hpp; path = opencv2.framework/Versions/A/Headers/videostab/motion_stabilizing.hpp; sourceTree = "<group>"; };
+		A969F79D77F8E9B4A03216FF1DBA8D10 /* detection_based_tracker.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = detection_based_tracker.hpp; path = opencv2.framework/Versions/A/Headers/objdetect/detection_based_tracker.hpp; sourceTree = "<group>"; };
+		A9D0805B4EA1017979DA221759E3C7EC /* opencv.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencv.hpp; path = opencv2.framework/Versions/A/Headers/opencv.hpp; sourceTree = "<group>"; };
+		AACE2F1BA270ACE057DC0F863E900676 /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/imgproc.hpp; sourceTree = "<group>"; };
+		ADC8B6338B80B28C70DC868E25FD97BC /* kmeans_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kmeans_index.h; path = opencv2.framework/Versions/A/Headers/flann/kmeans_index.h; sourceTree = "<group>"; };
+		AE289924C1B77264C0BE4D519B0F9A53 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		AE661A64CAA61AC04FF0523866351F2B /* objdetect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = objdetect.hpp; path = opencv2.framework/Versions/A/Headers/objdetect.hpp; sourceTree = "<group>"; };
+		B10940E384DD37A4F94D1603FA047DEA /* composite_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = composite_index.h; path = opencv2.framework/Versions/A/Headers/flann/composite_index.h; sourceTree = "<group>"; };
+		B167FA8BD2CB04ED5A4ED3D9808ACE31 /* photo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = photo.hpp; path = opencv2.framework/Versions/A/Headers/photo/photo.hpp; sourceTree = "<group>"; };
+		B349AF72EA00611A0CF538812BBD0753 /* cvstd.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cvstd.hpp; path = opencv2.framework/Versions/A/Headers/core/cvstd.hpp; sourceTree = "<group>"; };
+		B34A132AB5AA86C8C7DA27005F1E851C /* mat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = mat.hpp; path = opencv2.framework/Versions/A/Headers/core/mat.hpp; sourceTree = "<group>"; };
+		B46BE70A12F79CE00865FDB3466617F7 /* imgproc_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgproc_c.h; path = opencv2.framework/Versions/A/Headers/imgproc/imgproc_c.h; sourceTree = "<group>"; };
+		B53E9EE0046AAE124AEDD62D88412ADE /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		B66FF1A1A0B891B03A0DB76D522C5677 /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
+		B6E12DFDCA83C24BDD7C18FBB25E7E94 /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
+		B785D4540F49F2373F2B78DDF3CBA509 /* timelapsers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = timelapsers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/timelapsers.hpp; sourceTree = "<group>"; };
+		B82AFF04A7C08E41052F53C4E0D7CADD /* saturate.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = saturate.hpp; path = opencv2.framework/Versions/A/Headers/core/saturate.hpp; sourceTree = "<group>"; };
+		B8B85E39C2E0A87EB3AFA0E1224AF15D /* blenders.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = blenders.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/blenders.hpp; sourceTree = "<group>"; };
+		B9D4F2B99287255AB9D7452EAA3E2015 /* ocl_genbase.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ocl_genbase.hpp; path = opencv2.framework/Versions/A/Headers/core/ocl_genbase.hpp; sourceTree = "<group>"; };
+		BA6E7DA34A234FE881F57437CF5EE3BB /* version.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = version.hpp; path = opencv2.framework/Versions/A/Headers/core/version.hpp; sourceTree = "<group>"; };
+		BC20558C4045B0934AEE122DAD3EC0EA /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
+		BCD92856C3FDD72D178102C69B9FC414 /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
+		BE5C6AE8438A0389AC9904C9807976AD /* index_testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = index_testing.h; path = opencv2.framework/Versions/A/Headers/flann/index_testing.h; sourceTree = "<group>"; };
+		BE8438D1041FFEC0D5F133AA88E3F9AB /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
+		BF60A4900000D40D1AFFAAB0E58396FC /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		BF8986752BD90862668DCA14A0E2D536 /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
+		BFCD79801A6B6D6E89F192B71200A19D /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C0A161A6370C5617C7CCE81E9F1300F0 /* kdtree_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdtree_index.h; path = opencv2.framework/Versions/A/Headers/flann/kdtree_index.h; sourceTree = "<group>"; };
+		C105EBE048916E4E6E4A78E06121FEE1 /* highgui_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = highgui_c.h; path = opencv2.framework/Versions/A/Headers/highgui/highgui_c.h; sourceTree = "<group>"; };
+		C183C24A22F74E993217A25C2F5590A0 /* autotuned_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = autotuned_index.h; path = opencv2.framework/Versions/A/Headers/flann/autotuned_index.h; sourceTree = "<group>"; };
+		C374FDE2455CEB261070E85BFB28D626 /* wobble_suppression.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = wobble_suppression.hpp; path = opencv2.framework/Versions/A/Headers/videostab/wobble_suppression.hpp; sourceTree = "<group>"; };
+		C51687621FF7334B7AEBF4970C3BBBA6 /* hist_cost.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hist_cost.hpp; path = opencv2.framework/Versions/A/Headers/shape/hist_cost.hpp; sourceTree = "<group>"; };
+		C567659D59073CD7049179342AED86F8 /* directx.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = directx.hpp; path = opencv2.framework/Versions/A/Headers/core/directx.hpp; sourceTree = "<group>"; };
+		C575890BB480540078E4C75D55631D72 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		C578A6633F656ECFE27536607FBA30A3 /* ippasync.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ippasync.hpp; path = opencv2.framework/Versions/A/Headers/core/ippasync.hpp; sourceTree = "<group>"; };
 		C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
-		C69AD9A5BECC075FE83C99A088FF9ACF /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
+		C65DB4FE6ADF254FE8F6E329C02BEE5C /* MBSimpleLoadingIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBSimpleLoadingIndicator-prefix.pch"; sourceTree = "<group>"; };
+		C66A8BE5F565FD878E39F87DA77F6F32 /* flann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = flann.hpp; path = opencv2.framework/Versions/A/Headers/flann.hpp; sourceTree = "<group>"; };
+		C82E67B3D3146667D6ACCB38827E7A44 /* objdetect_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objdetect_c.h; path = opencv2.framework/Versions/A/Headers/objdetect/objdetect_c.h; sourceTree = "<group>"; };
 		C8D17A60964A8B2E34D1A9EC85A3A7ED /* DriftAnimationImageView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriftAnimationImageView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA19694C0AC41D598DE4ABFEB300E619 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA996B8189B3D37622DE4888B279E0E6 /* MBSimpleLoadingIndicator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBSimpleLoadingIndicator-umbrella.h"; sourceTree = "<group>"; };
-		CBB556AC21C65F9A86AA333124628E4F /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		CA405503C89F7CC1018572DCEC9E918B /* hal.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hal.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/hal.hpp; sourceTree = "<group>"; };
+		CC0C00634B4650266D5F19B72EFDC495 /* DriftAnimationImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DriftAnimationImageView-prefix.pch"; sourceTree = "<group>"; };
 		CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		CF75E1616112EC7DBA65AEB79B6951D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D215F0FAAE1BCFDD13EB0F54BD33F2DD /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		D41CBA9CE76E5DA74B2420878CFB84BC /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
-		D809316EFB396D01486905C015D00564 /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
-		D8BB5B19D1F7EEFF2176B6AE091DF9EB /* MBSimpleLoadingIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBSimpleLoadingIndicator-dummy.m"; sourceTree = "<group>"; };
+		CD165DF76571C3F06C0282DFC28A6560 /* private.cuda.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = private.cuda.hpp; path = opencv2.framework/Versions/A/Headers/core/private.cuda.hpp; sourceTree = "<group>"; };
+		CD5276C13C3DCAA772E8B59D359DC524 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = opencv2.framework/Versions/A/Headers/flann/heap.h; sourceTree = "<group>"; };
+		CE2AED4808EB810307CCDF9BEE71D401 /* dynamic_bitset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dynamic_bitset.h; path = opencv2.framework/Versions/A/Headers/flann/dynamic_bitset.h; sourceTree = "<group>"; };
+		CF2E44DD04FFBDAE0AD311CB752CBBB1 /* DriftAnimationImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DriftAnimationImageView.modulemap; sourceTree = "<group>"; };
+		CF881BFD36813D6AF52DCD5F55B446A3 /* log.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = log.hpp; path = opencv2.framework/Versions/A/Headers/videostab/log.hpp; sourceTree = "<group>"; };
+		D260D1112C44AF158120FBCED75DACB0 /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
+		D35CB23984BA5636AA1E5457AB6C8D7C /* DriftAnimationImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DriftAnimationImageView-dummy.m"; sourceTree = "<group>"; };
+		D63748DE08AEC8E5D34A8D245E947D6D /* cuda.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda.hpp; sourceTree = "<group>"; };
+		D8A7972C7285BED1E0FC2388D73EB857 /* lsh_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lsh_index.h; path = opencv2.framework/Versions/A/Headers/flann/lsh_index.h; sourceTree = "<group>"; };
+		D9298F8EA7BA8EC4B32E466077BF6BDA /* ResourceBundle-MBSimpleLoadingIndicator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBSimpleLoadingIndicator-Info.plist"; sourceTree = "<group>"; };
+		DAAA00549DA83E92AC364F9CE89EB964 /* types.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = types.hpp; path = opencv2.framework/Versions/A/Headers/core/types.hpp; sourceTree = "<group>"; };
 		DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		DCD2C75BAC23B2996C18C30043244297 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
-		DCE2788052B92DCC458203FF1988EC85 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		DE049ADBDD6CEFE0D54892FD0712B8A2 /* MBSimpleLoadingIndicator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBSimpleLoadingIndicator.xcconfig; sourceTree = "<group>"; };
+		DAC428D376BB9DF37C4F82D0628F6181 /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		DACBAEE43933E7FFCE0B862A377238AE /* photo_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = photo_c.h; path = opencv2.framework/Versions/A/Headers/photo/photo_c.h; sourceTree = "<group>"; };
+		DD1AE638BAD33E78FD87911045C551E7 /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = opencv2.framework/Versions/A/Headers/flann/params.h; sourceTree = "<group>"; };
+		DE71321F2D51E7E39B96B8C3C12F6632 /* motion_core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = motion_core.hpp; path = opencv2.framework/Versions/A/Headers/videostab/motion_core.hpp; sourceTree = "<group>"; };
+		DF5A6E2E9603EC1C155C3FC72986A83E /* MBSimpleLoadingIndicator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBSimpleLoadingIndicator.xcconfig; sourceTree = "<group>"; };
 		E02E01BC37D407D939C23E280CA75354 /* ALCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E65D65900877C85573C2DFCCE2384502 /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
+		E171FD790C3F125CAFE179C82817C168 /* matchers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = matchers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/matchers.hpp; sourceTree = "<group>"; };
+		E1BDFB9441CC4DEFA636DF2F0047914D /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		E305E4BB260FD36EF8B734A2C006D8B2 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		E3BDA89BEF25E3C36A890B8EC39D4135 /* warpers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = warpers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/warpers.hpp; sourceTree = "<group>"; };
+		E497F115E251B6DAF4E6316C9A751A04 /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
 		E68F8C86FB3267A3C87983DA9E269889 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6D9EBD0F1DF07CB5DB85E4CE1D4C5EC /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
 		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA9CB39BD2D7A0F1E016A5C2BE6A2C29 /* opencv_modules.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencv_modules.hpp; path = opencv2.framework/Versions/A/Headers/opencv_modules.hpp; sourceTree = "<group>"; };
 		EC86D5AC83768496C5A79D8CBAB861A2 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F28D7778C585E5EFC7877A36020EFF67 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		FE2AC7C50A22B3863737B4C981FBB085 /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
-		FF3B59E8976C9D48C0D8765D1DC2F3AA /* ResourceBundle-MBSimpleLoadingIndicator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBSimpleLoadingIndicator-Info.plist"; sourceTree = "<group>"; };
-		FFD042BA0922A210E6632AB3F17BF776 /* MBLoadingIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLoadingIndicator.h; path = Pod/Classes/MBLoadingIndicator.h; sourceTree = "<group>"; };
+		ED941240E186CDDE124A6C22C3D3299A /* wimage.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = wimage.hpp; path = opencv2.framework/Versions/A/Headers/core/wimage.hpp; sourceTree = "<group>"; };
+		EDD0B8A6F6EF0C16A69AAD1D83B97BAF /* imgcodecs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgcodecs.hpp; path = opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs.hpp; sourceTree = "<group>"; };
+		F0929D9DFB9EDE25CAD9E68E7607EECE /* inpainting.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = inpainting.hpp; path = opencv2.framework/Versions/A/Headers/videostab/inpainting.hpp; sourceTree = "<group>"; };
+		F30B128B6CE22357A8396C3730A56D4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F412E6DFC07EBF37EF833C66248D3647 /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/imgproc/imgproc.hpp; sourceTree = "<group>"; };
+		F50A7BE2BA747C7D8742F69D16FB8D88 /* util.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = util.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/util.hpp; sourceTree = "<group>"; };
+		F76D83B5CF12851D437108E8B8B061BF /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		F976FCCCACA4A7F90C493504B6DD78A9 /* intrin_neon.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_neon.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_neon.hpp; sourceTree = "<group>"; };
+		FA03E029BB36299E2BD8D4B6EDB915C6 /* intrin_sse.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_sse.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_sse.hpp; sourceTree = "<group>"; };
+		FA9006AA814011C19AEC94F3936556CE /* MBSimpleLoadingIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBSimpleLoadingIndicator-dummy.m"; sourceTree = "<group>"; };
+		FBE784495F676603F123199FAFBA658D /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		FC89671EA779B1F0701665E7423F3914 /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,50 +371,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		062BB8BB8AD889B23BE3DA7EBBFBA6CC /* GoogleSymbolUtilities */ = {
+		034FC28418B8B242D93DCACD58B5AF8C /* ALCameraViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BBD4AB5D6C10ACCACDC81FC850E1181B /* Frameworks */,
+				BE8438D1041FFEC0D5F133AA88E3F9AB /* CameraGlobals.swift */,
+				FBE784495F676603F123199FAFBA658D /* CameraShot.swift */,
+				5937E242C4CB3880F3FBAAE72A757788 /* CameraView.swift */,
+				36F5FEFA474D39AD577511A24FD2F9FD /* CameraViewController.swift */,
+				D260D1112C44AF158120FBCED75DACB0 /* CameraViewControllerConstraint.swift */,
+				9FB5014CE22AFF5A651F3E8E58D5D2E5 /* ConfirmViewController.swift */,
+				E497F115E251B6DAF4E6316C9A751A04 /* CropOverlay.swift */,
+				FC89671EA779B1F0701665E7423F3914 /* ImageCell.swift */,
+				BF8986752BD90862668DCA14A0E2D536 /* ImageFetcher.swift */,
+				107451EFBDAC7A59C4BBD69443F0804E /* PermissionsView.swift */,
+				8714AB9D5A4D7D7F56FE0B95614B0B9C /* PhotoLibraryAuthorizer.swift */,
+				7A39F31ED21ADA9F948506A58DDBCC86 /* PhotoLibraryViewController.swift */,
+				3846B9038748631ADBC1060DAE0EAC2B /* SingleImageFetcher.swift */,
+				BCD92856C3FDD72D178102C69B9FC414 /* SingleImageSaver.swift */,
+				7C0C7B82E5B754D19192E149B50C36B9 /* UIButtonExtensions.swift */,
+				7504DE32141879BE90288EA917C7D750 /* UIViewExtensions.swift */,
+				E305E4BB260FD36EF8B734A2C006D8B2 /* Utilities.swift */,
+				B6E12DFDCA83C24BDD7C18FBB25E7E94 /* VolumeControl.swift */,
+				1147C44D7A6A7D96B48A96BA1813CE6F /* Resources */,
+				B61C648EE10E184EBDA0F53827E34A86 /* Support Files */,
 			);
-			path = GoogleSymbolUtilities;
+			path = ALCameraViewController;
 			sourceTree = "<group>";
 		};
-		0BAA1BA269AD517099E4E4DD8181AAD9 /* Frameworks */ = {
+		0599919CCF4454121A22E01AB388942A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8C66BF498F3DE9E1388E7B4E19A86FD8 /* GoogleInterchangeUtilities.framework */,
+				CF2E44DD04FFBDAE0AD311CB752CBBB1 /* DriftAnimationImageView.modulemap */,
+				1F83AFE8A61930BF763B9763E0E73CD7 /* DriftAnimationImageView.xcconfig */,
+				D35CB23984BA5636AA1E5457AB6C8D7C /* DriftAnimationImageView-dummy.m */,
+				CC0C00634B4650266D5F19B72EFDC495 /* DriftAnimationImageView-prefix.pch */,
+				382CB5D0FC22B42CCEABD2BE50914934 /* DriftAnimationImageView-umbrella.h */,
+				3106A850C70B10B0FDCC20D9C2DC972C /* Info.plist */,
+				82E9BEA5EA71B5206EEC5EFFF31A68CE /* ResourceBundle-DriftAnimationImageView-Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/DriftAnimationImageView";
 			sourceTree = "<group>";
 		};
-		1A53583740CCBF3C54E8C7AAFC5E3A0B /* Frameworks */ = {
+		0939A61BB2CA77C83C2D637D8DE9AD34 /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				486938B45527A524CDAAEDA8C483A9A3 /* FirebaseStorage.framework */,
+				5E739DEA3149F9F7F928B6589193F01F /* Frameworks */,
 			);
-			name = Frameworks;
+			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
-		1B32BA3582B58F0B272CCA4B508099CB /* Frameworks */ = {
+		1147C44D7A6A7D96B48A96BA1813CE6F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F28D7778C585E5EFC7877A36020EFF67 /* FirebaseDatabase.framework */,
+				714DB1810F43505CBAF6522EE2C82560 /* CameraView.strings */,
+				B53E9EE0046AAE124AEDD62D88412ADE /* CameraViewAssets.xcassets */,
+				B66FF1A1A0B891B03A0DB76D522C5677 /* ConfirmViewController.xib */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		242EF1D9F05CA042F8347D6380962D90 /* Frameworks */ = {
+		1D9965680977CF3D44E0926628E7E2B9 /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				D215F0FAAE1BCFDD13EB0F54BD33F2DD /* FirebaseAnalytics.framework */,
+				EA46B65597EF9770218D08449B673B99 /* Frameworks */,
 			);
-			name = Frameworks;
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		260B5A1959C2DE0345AAC705FC066408 /* Frameworks */ = {
+		287782F9E709F8F0AF5219D5A2B3FE6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCE2788052B92DCC458203FF1988EC85 /* GoogleNetworkingUtilities.framework */,
+				64F693F1F10C2DA78DF3491F623F0534 /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -274,49 +460,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		341E423BB5B3CE52B125920E02679542 /* Pods */ = {
+		2B9D099AC0595A7C7016C948D561FD4C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48496A8FB47EC1A957933D4232C97723 /* ALCameraViewController */,
-				B9CE101252545DFD663D83BA283E169C /* DriftAnimationImageView */,
-				F2C1C1DCA13CC8CEF4D1DDA098BCCB48 /* Firebase */,
-				42DF34717E80796AAB596C22A8BC325C /* FirebaseAnalytics */,
-				5542C7FB1E0C476F0F5BB163BFDC587F /* FirebaseDatabase */,
-				54BE42323A7F2E2639760C6931B42A40 /* FirebaseInstanceID */,
-				4F9F0E1219761221DA320FE6DE8B95C4 /* FirebaseStorage */,
-				94762E8CE8AAC6B176397E91FA5E834A /* GoogleInterchangeUtilities */,
-				C682EC1FC62B4D6A6F57B6074F7A2057 /* GoogleNetworkingUtilities */,
-				062BB8BB8AD889B23BE3DA7EBBFBA6CC /* GoogleSymbolUtilities */,
-				3E28F73F1CB53F4EA8598A4520790299 /* GoogleUtilities */,
-				3BA9D49DC06755E4FCDE1C3A51CCD7B8 /* MBSimpleLoadingIndicator */,
+				034FC28418B8B242D93DCACD58B5AF8C /* ALCameraViewController */,
+				D39456CF2008DA60DF3CA86A51A93DBD /* DriftAnimationImageView */,
+				8B67B686F17C8266AD6C26D2178EC45D /* Firebase */,
+				1D9965680977CF3D44E0926628E7E2B9 /* FirebaseAnalytics */,
+				64CB72265CD11B21C92F8A99F23CBBA2 /* FirebaseDatabase */,
+				84C5521A73216DAA236D56D0706EB1D7 /* FirebaseInstanceID */,
+				3F4CCBB5EE8A9373ACD19B6A6FCD6229 /* FirebaseStorage */,
+				0939A61BB2CA77C83C2D637D8DE9AD34 /* GoogleInterchangeUtilities */,
+				B075B2C039DA0488C5EF36693FDC5082 /* GoogleNetworkingUtilities */,
+				C5807E93570CA915239771A3F8D76AD5 /* GoogleSymbolUtilities */,
+				DA5F22B54E591DDBFE1593F68F9ECC7F /* GoogleUtilities */,
+				654C95EED80E7D9F0C2C09A6FE431216 /* MBSimpleLoadingIndicator */,
+				60D4E9F2439EB381BA70D2B48AE5DA8C /* OpenCV */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3BA9D49DC06755E4FCDE1C3A51CCD7B8 /* MBSimpleLoadingIndicator */ = {
+		3F4CCBB5EE8A9373ACD19B6A6FCD6229 /* FirebaseStorage */ = {
 			isa = PBXGroup;
 			children = (
-				FFD042BA0922A210E6632AB3F17BF776 /* MBLoadingIndicator.h */,
-				BF39871394C96FCA3848A83A2C77F221 /* MBLoadingIndicator.m */,
-				AC00CFDC6A6FC06EBD060FF47564D9A4 /* Support Files */,
+				C1B792F4BAD729037BEF4A4EEDC37BDC /* Frameworks */,
 			);
-			path = MBSimpleLoadingIndicator;
-			sourceTree = "<group>";
-		};
-		3E28F73F1CB53F4EA8598A4520790299 /* GoogleUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				A222A3BF6C202C0C81E7960BA1019B33 /* Frameworks */,
-			);
-			path = GoogleUtilities;
-			sourceTree = "<group>";
-		};
-		42DF34717E80796AAB596C22A8BC325C /* FirebaseAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				242EF1D9F05CA042F8347D6380962D90 /* Frameworks */,
-			);
-			path = FirebaseAnalytics;
+			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -327,88 +496,195 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		48496A8FB47EC1A957933D4232C97723 /* ALCameraViewController */ = {
+		5E739DEA3149F9F7F928B6589193F01F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				87882F7FAB6EE11E2D9354DF5B8B5469 /* CameraGlobals.swift */,
-				CBB556AC21C65F9A86AA333124628E4F /* CameraShot.swift */,
-				96F7C15E7481FACE92D6959CCD5FC011 /* CameraView.swift */,
-				DCD2C75BAC23B2996C18C30043244297 /* CameraViewController.swift */,
-				9BADEEB6DD3499D92F24F0DCE1CC57AD /* CameraViewControllerConstraint.swift */,
-				D809316EFB396D01486905C015D00564 /* ConfirmViewController.swift */,
-				449C6C4241989E5E21C9AAFD1113A4F4 /* CropOverlay.swift */,
-				FE2AC7C50A22B3863737B4C981FBB085 /* ImageCell.swift */,
-				D41CBA9CE76E5DA74B2420878CFB84BC /* ImageFetcher.swift */,
-				9B365924F92DB4D6D4473B8F9A82F770 /* PermissionsView.swift */,
-				4A224373CD337A13C3A03A472B7E5D06 /* PhotoLibraryAuthorizer.swift */,
-				5AD974553E0741FD75118DD5A6EF6052 /* PhotoLibraryViewController.swift */,
-				2EC8B10B67BEA067FAC87A84B8DA1280 /* SingleImageFetcher.swift */,
-				3FA2E898AC464BD1DEDED6E79BF0F5FA /* SingleImageSaver.swift */,
-				C39854448360ADB4B909DD5A5FCB978E /* UIButtonExtensions.swift */,
-				35DF41DCCCC8CA4946E2AE3E0609FD1E /* UIViewExtensions.swift */,
-				29349FCA6532C1A819863B5FB6A5B9D1 /* Utilities.swift */,
-				E65D65900877C85573C2DFCCE2384502 /* VolumeControl.swift */,
-				56C23D4B6EF934D7394E841084E8CFC7 /* Resources */,
-				69C628E4EA40A79D5CADDE9104CB81B9 /* Support Files */,
-			);
-			path = ALCameraViewController;
-			sourceTree = "<group>";
-		};
-		4F9F0E1219761221DA320FE6DE8B95C4 /* FirebaseStorage */ = {
-			isa = PBXGroup;
-			children = (
-				1A53583740CCBF3C54E8C7AAFC5E3A0B /* Frameworks */,
-			);
-			path = FirebaseStorage;
-			sourceTree = "<group>";
-		};
-		54BE42323A7F2E2639760C6931B42A40 /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				7B59FA6936DD3840A9AF9498FCC7DA04 /* FIRInstanceID.h */,
-				65B01F9B38C4F2D81D00BD9036CD953A /* Frameworks */,
-			);
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		5542C7FB1E0C476F0F5BB163BFDC587F /* FirebaseDatabase */ = {
-			isa = PBXGroup;
-			children = (
-				1B32BA3582B58F0B272CCA4B508099CB /* Frameworks */,
-			);
-			path = FirebaseDatabase;
-			sourceTree = "<group>";
-		};
-		56C23D4B6EF934D7394E841084E8CFC7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A5C4B739806CA1580806FA737D3EA94A /* CameraView.strings */,
-				01D0FA600C132FAA5DE76D477F207FF3 /* CameraViewAssets.xcassets */,
-				C69AD9A5BECC075FE83C99A088FF9ACF /* ConfirmViewController.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		65B01F9B38C4F2D81D00BD9036CD953A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				15422A0537839007ED8A6CE76840BAB4 /* FirebaseInstanceID.framework */,
+				8442983DB92F1C495274703A48045CCC /* GoogleInterchangeUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		69C628E4EA40A79D5CADDE9104CB81B9 /* Support Files */ = {
+		60D4E9F2439EB381BA70D2B48AE5DA8C /* OpenCV */ = {
 			isa = PBXGroup;
 			children = (
-				857AAC5D9591F3CE165D5BE3ECEA7986 /* ALCameraViewController.modulemap */,
-				C0E1C4FFFB21DB2F4A48970A242F95DC /* ALCameraViewController.xcconfig */,
-				73D60CDFE20E188697C5EDE993427F1A /* ALCameraViewController-dummy.m */,
-				E6D9EBD0F1DF07CB5DB85E4CE1D4C5EC /* ALCameraViewController-prefix.pch */,
-				A15E6BC28C56A7515A0E08EB37AB5007 /* ALCameraViewController-umbrella.h */,
-				CF75E1616112EC7DBA65AEB79B6951D7 /* Info.plist */,
+				3762ADC757C4C30DE9B68A0D778EB9CF /* affine.hpp */,
+				6462CD8582A2CD91BD4BA94FA3D593D0 /* all_indices.h */,
+				8C8E8F80872B3678658F235196861A1E /* allocator.h */,
+				4460C6CD918315FE0DF65C3876DBD631 /* any.h */,
+				05A85D9DA5E4A68034CD5944CB107B22 /* autocalib.hpp */,
+				C183C24A22F74E993217A25C2F5590A0 /* autotuned_index.h */,
+				826642ED25A8F5D810FDB22A5A40B0BA /* background_segm.hpp */,
+				8D960FF4CA908B2F3334679251708FFB /* base.hpp */,
+				B8B85E39C2E0A87EB3AFA0E1224AF15D /* blenders.hpp */,
+				A6738B2CC2C6E8C5395F57FE05144611 /* bufferpool.hpp */,
+				0F4B2304BF5BB86CB075D1D7575988F9 /* calib3d.hpp */,
+				2D95AD6CDAC26E2961C1A41324AE3114 /* calib3d.hpp */,
+				90CA4E8E18ADE22027BE99C6C9CB7E84 /* calib3d_c.h */,
+				2AB298B608F2DEE3E8D6313EFBF09468 /* camera.hpp */,
+				0431B9615B26AB5B19D56B3C409D4C6F /* cap_ios.h */,
+				B10940E384DD37A4F94D1603FA047DEA /* composite_index.h */,
+				81EC56687E28D60D328D6C5BB40B4BA2 /* config.h */,
+				5F67C3DF7EC497F0EC62A079E152A025 /* core.hpp */,
+				37E0C04A76EB2B5761A3CD97F4376446 /* core.hpp */,
+				14720C799C6BC64B8736A2E77C9FF08A /* core_c.h */,
+				D63748DE08AEC8E5D34A8D245E947D6D /* cuda.hpp */,
+				44887EDFBCEAB449A4E41F1CA3E93B0C /* cuda.hpp */,
+				4BEF0F442753BA1E8B8FD9BFB6B1668D /* cuda.inl.hpp */,
+				044EE820DB5235B26E4B801A1C61AE99 /* cuda_stream_accessor.hpp */,
+				5E80F2A24A8A38DA261BB8699F86869A /* cuda_types.hpp */,
+				08A5EC7C0001F7DF546684B889E18EC0 /* cvconfig.h */,
+				41C02A401A5AC7502EFE4CE1935B20EC /* cvdef.h */,
+				B349AF72EA00611A0CF538812BBD0753 /* cvstd.hpp */,
+				63D7EDE3C8F1A8C3BD899B6A450526B9 /* cvstd.inl.hpp */,
+				7CA5D1624B7DF70405598DE8C9CFCAF3 /* deblurring.hpp */,
+				7C6861284041242EE637C2B68E742021 /* defines.h */,
+				A969F79D77F8E9B4A03216FF1DBA8D10 /* detection_based_tracker.hpp */,
+				C567659D59073CD7049179342AED86F8 /* directx.hpp */,
+				58AF5B08C6671C8DA8569F5EF614A8C4 /* dist.h */,
+				80994EBE8E551BE2E557AAFF67C393ED /* distortion_model.hpp */,
+				361DC8D064F1195E924338D736C3BB62 /* dummy.h */,
+				CE2AED4808EB810307CCDF9BEE71D401 /* dynamic_bitset.h */,
+				1FF4AD02B18E4C46BB1B9615AABE9F80 /* eigen.hpp */,
+				268E44E82B86A638754F2376C67CB104 /* emdL1.hpp */,
+				65F261AAA2DF19D95C6BB12E02FF4F41 /* exposure_compensate.hpp */,
+				3B6BBC665F1200D5B896942BC6078EE0 /* fast_marching.hpp */,
+				90A67BA7903CCC83D1E581FBABFBD42B /* fast_marching_inl.hpp */,
+				7BD4DEB72C69E2194A545C4A75783447 /* fast_math.hpp */,
+				0DB01051F48F22A7101B679DC88CC307 /* features2d.hpp */,
+				37ACCD3ECB64B86D196D512719D20F3D /* features2d.hpp */,
+				603F99559C3B5737692B4DD4281F6A4C /* flann.hpp */,
+				C66A8BE5F565FD878E39F87DA77F6F32 /* flann.hpp */,
+				1CA9D113E0CABEF44BAC952875CCF900 /* flann_base.hpp */,
+				00B233900E284DB1AA6527E8849A41E6 /* frame_source.hpp */,
+				53D40C61FDB19A48527C6F56B7C2059D /* general.h */,
+				4BC6F73CAD05EB80185233DEA63F5F1B /* global_motion.hpp */,
+				8AE49417816F319F2D91F82DE4EB4E31 /* ground_truth.h */,
+				CA405503C89F7CC1018572DCEC9E918B /* hal.hpp */,
+				1DB702CE32836D963E22604E4F7C3687 /* hdf5.h */,
+				CD5276C13C3DCAA772E8B59D359DC524 /* heap.h */,
+				3C6FCF58BC8957BC313CDF855016BCE9 /* hierarchical_clustering_index.h */,
+				8F3FBC2183862309C21BD968A77A4E1B /* highgui.hpp */,
+				4ACD9848AAB9D160A600E90796A3245E /* highgui.hpp */,
+				C105EBE048916E4E6E4A78E06121FEE1 /* highgui_c.h */,
+				C51687621FF7334B7AEBF4970C3BBBA6 /* hist_cost.hpp */,
+				01F3FDF6113723F65366926F49F7F9FD /* imgcodecs.hpp */,
+				EDD0B8A6F6EF0C16A69AAD1D83B97BAF /* imgcodecs.hpp */,
+				46E7B61EB4C4A2B29D96A8C51B15DDFF /* imgcodecs_c.h */,
+				F412E6DFC07EBF37EF833C66248D3647 /* imgproc.hpp */,
+				AACE2F1BA270ACE057DC0F863E900676 /* imgproc.hpp */,
+				B46BE70A12F79CE00865FDB3466617F7 /* imgproc_c.h */,
+				BE5C6AE8438A0389AC9904C9807976AD /* index_testing.h */,
+				F0929D9DFB9EDE25CAD9E68E7607EECE /* inpainting.hpp */,
+				84EB1902590365767E1095A6A6B417E0 /* interface.h */,
+				95CD8882552352434B1BBBF426A8C575 /* intrin.hpp */,
+				8535923A9287FBCBAA11F289FEC96C7D /* intrin_cpp.hpp */,
+				F976FCCCACA4A7F90C493504B6DD78A9 /* intrin_neon.hpp */,
+				FA03E029BB36299E2BD8D4B6EDB915C6 /* intrin_sse.hpp */,
+				A440E96688C563F70C3698E2A31DF774 /* ios.h */,
+				C578A6633F656ECFE27536607FBA30A3 /* ippasync.hpp */,
+				C0A161A6370C5617C7CCE81E9F1300F0 /* kdtree_index.h */,
+				9BEB7729F9E3C9894F0B6945D516C402 /* kdtree_single_index.h */,
+				ADC8B6338B80B28C70DC868E25FD97BC /* kmeans_index.h */,
+				8D41A2EBEC5D3CFE6538CA861D76A7ED /* linear_index.h */,
+				CF881BFD36813D6AF52DCD5F55B446A3 /* log.hpp */,
+				A31802164FD3BB35909C393DF38D51E7 /* logger.h */,
+				D8A7972C7285BED1E0FC2388D73EB857 /* lsh_index.h */,
+				67675114EB081AE3CF57D13316A48677 /* lsh_table.h */,
+				B34A132AB5AA86C8C7DA27005F1E851C /* mat.hpp */,
+				A2C7ED544A504479F3C2C659F28902A3 /* mat.inl.hpp */,
+				E171FD790C3F125CAFE179C82817C168 /* matchers.hpp */,
+				39883BB35F21FC2A09E7069A215736C6 /* matrix.h */,
+				844B08EF9A98F3553A5A45AF9FEB852E /* matx.hpp */,
+				89EE0885492C8E32155E05B42B73A1A7 /* miniflann.hpp */,
+				04F7BA7CB4524C0F7EB5D4D0C36E8333 /* ml.hpp */,
+				152664D335B81B08B513D8DB5707E8E0 /* ml.hpp */,
+				DE71321F2D51E7E39B96B8C3C12F6632 /* motion_core.hpp */,
+				7F5FD6031C275620EF878E58C34C8404 /* motion_estimators.hpp */,
+				A6B87B730D91C6BE6351D374633AA82C /* motion_stabilizing.hpp */,
+				1A32ECA00DD19B29B6ACFA74A64BC57E /* neon_utils.hpp */,
+				5F297BB2FE56B74E216A4A2FC20A7B7F /* nn_index.h */,
+				AE661A64CAA61AC04FF0523866351F2B /* objdetect.hpp */,
+				8E157F4015006C0D0C5E2E41CEB35A63 /* objdetect.hpp */,
+				C82E67B3D3146667D6ACCB38827E7A44 /* objdetect_c.h */,
+				62138D7FAB2DE1F1EFFA10A0BB6D2811 /* object_factory.h */,
+				16D3FDD6970F91E6F22A48722707DDE7 /* ocl.hpp */,
+				B9D4F2B99287255AB9D7452EAA3E2015 /* ocl_genbase.hpp */,
+				A9D0805B4EA1017979DA221759E3C7EC /* opencv.hpp */,
+				EA9CB39BD2D7A0F1E016A5C2BE6A2C29 /* opencv_modules.hpp */,
+				0780B0547EEB30D7413330FC3F1DB4D0 /* opengl.hpp */,
+				A2C52A18D0DF2C384EC3A2C60B21F59E /* operations.hpp */,
+				77311434B91371942A05CDDA8CEE0FF2 /* optical_flow.hpp */,
+				27F54BAEC5F417BE95924AA004F92719 /* optim.hpp */,
+				5EFB05072C4F2438E6FF5D983EAF6C2B /* outlier_rejection.hpp */,
+				DD1AE638BAD33E78FD87911045C551E7 /* params.h */,
+				38FB2EBCEABA3C0E6DA2E76422C383F6 /* persistence.hpp */,
+				B167FA8BD2CB04ED5A4ED3D9808ACE31 /* photo.hpp */,
+				9FA34695B14C79A396EB0B7E83CDB11B /* photo.hpp */,
+				DACBAEE43933E7FFCE0B862A377238AE /* photo_c.h */,
+				5C1FBF6FB32E32D8FAE3638C0363ABE9 /* private.hpp */,
+				CD165DF76571C3F06C0282DFC28A6560 /* private.cuda.hpp */,
+				4CB06704039774F20ABC0B5FEBE421BB /* ptr.inl.hpp */,
+				37308D7C2CE603E675298EA23E01DB12 /* random.h */,
+				3D6376CF0CEF7AD878151F48720B9604 /* result_set.h */,
+				951649B4B81D66247118ED648F09CFF4 /* ring_buffer.hpp */,
+				742C975BCC2D2583FF4D52DA75697A80 /* sampling.h */,
+				B82AFF04A7C08E41052F53C4E0D7CADD /* saturate.hpp */,
+				5E127403EC370F6FE26946EDC951E66C /* saving.h */,
+				81A1EEA86073569C977E46C55EAA4A77 /* seam_finders.hpp */,
+				7BD25A6A51A304699176569F71C98094 /* shape.hpp */,
+				4ED0FA5FA0797D9B5992E1FA2FD38C98 /* shape.hpp */,
+				0D0AB3F870E948E4C7872F3C4051DC75 /* shape_distance.hpp */,
+				41B1344A9113A832BCE7E162B4C3DB68 /* shape_transformer.hpp */,
+				920EBC32649EEDAE40DA3656A4D6052E /* simplex_downhill.h */,
+				3B05464D2169ECD0F4CC83478D699496 /* sse_utils.hpp */,
+				377DC389BC038EF41DC08D76A74B37A5 /* stabilizer.hpp */,
+				351DEF5724E496DD1AB301DE19AE2D65 /* stitching.hpp */,
+				B785D4540F49F2373F2B78DDF3CBA509 /* timelapsers.hpp */,
+				706E6742DE3208B9BFB44CBF9E476BC0 /* timer.h */,
+				92C0C3DCD3F261923301B05BBBFC2B5F /* tracking.hpp */,
+				4D166C27064D4E1E819C99A827713EEA /* tracking_c.h */,
+				53CD51DC31070A23C1B564350B12C1D3 /* traits.hpp */,
+				DAAA00549DA83E92AC364F9CE89EB964 /* types.hpp */,
+				48085A1EB0F8EE02C204646B73CB111B /* types_c.h */,
+				8FBD689C4C4A35BFC399CF8C8858D7A1 /* types_c.h */,
+				F50A7BE2BA747C7D8742F69D16FB8D88 /* util.hpp */,
+				16B00610A2ED670CC58346BC94A2F2C8 /* util_inl.hpp */,
+				5431A4A4E9E32F234129049F941F872B /* utility.hpp */,
+				7D22845209CF213C83036814F60E9676 /* va_intel.hpp */,
+				BA6E7DA34A234FE881F57437CF5EE3BB /* version.hpp */,
+				2F0483B2091DA0D8313ECBF266693099 /* video.hpp */,
+				8F1947FE405C9A22A6A036B724188C31 /* video.hpp */,
+				734ECFF99E21B60A33B03A9E9EFDDDCD /* videoio.hpp */,
+				34812CE697CA8C7A5C3B8305A5779F69 /* videoio.hpp */,
+				304230995587C85666AFE37FB5FC7FEE /* videoio_c.h */,
+				91DB2E8E842EEDC6D41F53B16B53DBC0 /* videostab.hpp */,
+				E3BDA89BEF25E3C36A890B8EC39D4135 /* warpers.hpp */,
+				4A0F37BFE5A3B790E9AE7C3ED323CAA1 /* warpers.hpp */,
+				A2CD70B8C7CAD543F917ACA5D45BF90D /* warpers_inl.hpp */,
+				ED941240E186CDDE124A6C22C3D3299A /* wimage.hpp */,
+				C374FDE2455CEB261070E85BFB28D626 /* wobble_suppression.hpp */,
+				16777704C3A2E04A87C14E857B2C45C8 /* world.hpp */,
+				AD4824E3BDB7915D08A4777C11998D37 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ALCameraViewController";
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		64CB72265CD11B21C92F8A99F23CBBA2 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				92A6FD80642BFB9E3BB45AA7320728F4 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		654C95EED80E7D9F0C2C09A6FE431216 /* MBSimpleLoadingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB703EEFF1ECFD77815BBD87FB0558 /* MBLoadingIndicator.h */,
+				86CA70DF131497B2968129DA8CCB3E6D /* MBLoadingIndicator.m */,
+				BF08FE2E2BE115668D782FBABEAEBD76 /* Support Files */,
+			);
+			path = MBSimpleLoadingIndicator;
 			sourceTree = "<group>";
 		};
 		6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */ = {
@@ -419,94 +695,158 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7CEA490C9B23895ADEFA7366E88EEC2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5587A29AA3DA65512C3A97F1DB4C4F2B /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				341E423BB5B3CE52B125920E02679542 /* Pods */,
+				2B9D099AC0595A7C7016C948D561FD4C /* Pods */,
 				2908AE3CE48AFA1E8FDC59A985129C9D /* Products */,
 				6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		94762E8CE8AAC6B176397E91FA5E834A /* GoogleInterchangeUtilities */ = {
+		84C5521A73216DAA236D56D0706EB1D7 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				0BAA1BA269AD517099E4E4DD8181AAD9 /* Frameworks */,
+				7A0D246575BA0FB4328F4A95CF98C764 /* FIRInstanceID.h */,
+				287782F9E709F8F0AF5219D5A2B3FE6A /* Frameworks */,
 			);
-			path = GoogleInterchangeUtilities;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		A222A3BF6C202C0C81E7960BA1019B33 /* Frameworks */ = {
+		897B622B64EE7FCA4B7603EACF7C46D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				980EE31864F864003D18FBF69FF976D6 /* GoogleUtilities.framework */,
+				BF60A4900000D40D1AFFAAB0E58396FC /* GoogleUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AC00CFDC6A6FC06EBD060FF47564D9A4 /* Support Files */ = {
+		8B67B686F17C8266AD6C26D2178EC45D /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				4A2D9DF2FF95FCA03F10E2A1F6358717 /* Info.plist */,
-				7F9D2E0CAC4CAAB4ECC1EE8C3243AE97 /* MBSimpleLoadingIndicator.modulemap */,
-				DE049ADBDD6CEFE0D54892FD0712B8A2 /* MBSimpleLoadingIndicator.xcconfig */,
-				D8BB5B19D1F7EEFF2176B6AE091DF9EB /* MBSimpleLoadingIndicator-dummy.m */,
-				84B35EEB5159BEF87761835E63B04F76 /* MBSimpleLoadingIndicator-prefix.pch */,
-				CA996B8189B3D37622DE4888B279E0E6 /* MBSimpleLoadingIndicator-umbrella.h */,
-				FF3B59E8976C9D48C0D8765D1DC2F3AA /* ResourceBundle-MBSimpleLoadingIndicator-Info.plist */,
+				A09E9270B70DA8F05B6C192C8E9493B1 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		92A6FD80642BFB9E3BB45AA7320728F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				986DD69024648F648E4950DA07F394D1 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B69C81B71EDF118A58D82FCC0A8E6E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50EFEEBF2564F8861A693393F1208436 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A09E9270B70DA8F05B6C192C8E9493B1 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				F76D83B5CF12851D437108E8B8B061BF /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		AD4824E3BDB7915D08A4777C11998D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C575890BB480540078E4C75D55631D72 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B075B2C039DA0488C5EF36693FDC5082 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				9B69C81B71EDF118A58D82FCC0A8E6E6 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		B61C648EE10E184EBDA0F53827E34A86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC20558C4045B0934AEE122DAD3EC0EA /* ALCameraViewController.modulemap */,
+				92EC8192FD68E7A5168AD56D33B48E82 /* ALCameraViewController.xcconfig */,
+				790E751ED6871D3097A9122236917906 /* ALCameraViewController-dummy.m */,
+				DAC428D376BB9DF37C4F82D0628F6181 /* ALCameraViewController-prefix.pch */,
+				E1BDFB9441CC4DEFA636DF2F0047914D /* ALCameraViewController-umbrella.h */,
+				0E145CC3A5AAA2E2DB851EFCE5E7708A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALCameraViewController";
+			sourceTree = "<group>";
+		};
+		BF08FE2E2BE115668D782FBABEAEBD76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F30B128B6CE22357A8396C3730A56D4B /* Info.plist */,
+				0A5668A8DB5CB8C23E2B9BE06C30BD91 /* MBSimpleLoadingIndicator.modulemap */,
+				DF5A6E2E9603EC1C155C3FC72986A83E /* MBSimpleLoadingIndicator.xcconfig */,
+				FA9006AA814011C19AEC94F3936556CE /* MBSimpleLoadingIndicator-dummy.m */,
+				C65DB4FE6ADF254FE8F6E329C02BEE5C /* MBSimpleLoadingIndicator-prefix.pch */,
+				65A7E0128582249566FD6ACB7D3E24C6 /* MBSimpleLoadingIndicator-umbrella.h */,
+				D9298F8EA7BA8EC4B32E466077BF6BDA /* ResourceBundle-MBSimpleLoadingIndicator-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MBSimpleLoadingIndicator";
 			sourceTree = "<group>";
 		};
-		B31B9404F508CB1A273992F9ECE3D0FC /* Support Files */ = {
+		C1B792F4BAD729037BEF4A4EEDC37BDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA0C258F7ACBE11CAD4884B82B0FED67 /* DriftAnimationImageView.modulemap */,
-				0A205228E98750DC5D5E1DDF6F97DA02 /* DriftAnimationImageView.xcconfig */,
-				82287BDCA0EE8A981E6249C5699A74F8 /* DriftAnimationImageView-dummy.m */,
-				375B008CF2DE366E6E308DC4FC639961 /* DriftAnimationImageView-prefix.pch */,
-				86DCA57B046ACDFA008670BA9D4F5E91 /* DriftAnimationImageView-umbrella.h */,
-				5602DFD57EC1CAD6F48159801E3C9235 /* Info.plist */,
-				1F03935E367CFBED243049CCA67C4F3F /* ResourceBundle-DriftAnimationImageView-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DriftAnimationImageView";
-			sourceTree = "<group>";
-		};
-		B9CE101252545DFD663D83BA283E169C /* DriftAnimationImageView */ = {
-			isa = PBXGroup;
-			children = (
-				0139B1CA11530BD781AD151C43911738 /* DriftAnimationImageView.swift */,
-				B31B9404F508CB1A273992F9ECE3D0FC /* Support Files */,
-			);
-			path = DriftAnimationImageView;
-			sourceTree = "<group>";
-		};
-		BBD4AB5D6C10ACCACDC81FC850E1181B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				59F819849229D1A8B928A86B267447DC /* GoogleSymbolUtilities.framework */,
+				AE289924C1B77264C0BE4D519B0F9A53 /* FirebaseStorage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C682EC1FC62B4D6A6F57B6074F7A2057 /* GoogleNetworkingUtilities */ = {
+		C5807E93570CA915239771A3F8D76AD5 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				260B5A1959C2DE0345AAC705FC066408 /* Frameworks */,
+				7CEA490C9B23895ADEFA7366E88EEC2D /* Frameworks */,
 			);
-			path = GoogleNetworkingUtilities;
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
-		CDA53605C20B64B58737A2177D86568F /* Analytics */ = {
+		D39456CF2008DA60DF3CA86A51A93DBD /* DriftAnimationImageView */ = {
 			isa = PBXGroup;
 			children = (
-				3EDA9A157B1260A0068A0E5A5737ADD7 /* Firebase.h */,
+				9D90339B130A95CE9F7D5806051F7764 /* DriftAnimationImageView.swift */,
+				0599919CCF4454121A22E01AB388942A /* Support Files */,
 			);
-			name = Analytics;
+			path = DriftAnimationImageView;
+			sourceTree = "<group>";
+		};
+		DA5F22B54E591DDBFE1593F68F9ECC7F /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				897B622B64EE7FCA4B7603EACF7C46D0 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		EA46B65597EF9770218D08449B673B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFCD79801A6B6D6E89F192B71200A19D /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		ECC58720C5754A079F9A150E40E2FCDD /* Pods-Demo */ = {
@@ -525,14 +865,6 @@
 			);
 			name = "Pods-Demo";
 			path = "Target Support Files/Pods-Demo";
-			sourceTree = "<group>";
-		};
-		F2C1C1DCA13CC8CEF4D1DDA098BCCB48 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				CDA53605C20B64B58737A2177D86568F /* Analytics */,
-			);
-			path = Firebase;
 			sourceTree = "<group>";
 		};
 		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
@@ -872,7 +1204,7 @@
 /* Begin XCBuildConfiguration section */
 		18E06DADD61CEBB7D5E4DEF9E05EEC03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE049ADBDD6CEFE0D54892FD0712B8A2 /* MBSimpleLoadingIndicator.xcconfig */;
+			baseConfigurationReference = DF5A6E2E9603EC1C155C3FC72986A83E /* MBSimpleLoadingIndicator.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBSimpleLoadingIndicator";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -889,7 +1221,7 @@
 		};
 		1FCFA8324C59303A02990B8C193FC855 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE049ADBDD6CEFE0D54892FD0712B8A2 /* MBSimpleLoadingIndicator.xcconfig */;
+			baseConfigurationReference = DF5A6E2E9603EC1C155C3FC72986A83E /* MBSimpleLoadingIndicator.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -918,7 +1250,7 @@
 		};
 		45273CDE017CAE5B9F3F2A689CDC98CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A205228E98750DC5D5E1DDF6F97DA02 /* DriftAnimationImageView.xcconfig */;
+			baseConfigurationReference = 1F83AFE8A61930BF763B9763E0E73CD7 /* DriftAnimationImageView.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DriftAnimationImageView";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -977,7 +1309,7 @@
 		};
 		5311AF5C1375D3127103CEBAE164AB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0E1C4FFFB21DB2F4A48970A242F95DC /* ALCameraViewController.xcconfig */;
+			baseConfigurationReference = 92EC8192FD68E7A5168AD56D33B48E82 /* ALCameraViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1040,7 +1372,7 @@
 		};
 		6BCE4FDBB58070DBDC585B844ABCAE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE049ADBDD6CEFE0D54892FD0712B8A2 /* MBSimpleLoadingIndicator.xcconfig */;
+			baseConfigurationReference = DF5A6E2E9603EC1C155C3FC72986A83E /* MBSimpleLoadingIndicator.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBSimpleLoadingIndicator";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1057,7 +1389,7 @@
 		};
 		6F853CA4451DD26A1A3DB1C25AEACF95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0E1C4FFFB21DB2F4A48970A242F95DC /* ALCameraViewController.xcconfig */;
+			baseConfigurationReference = 92EC8192FD68E7A5168AD56D33B48E82 /* ALCameraViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1086,7 +1418,7 @@
 		};
 		74E4C1B2D0AD43D239A22CEF07C9C618 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A205228E98750DC5D5E1DDF6F97DA02 /* DriftAnimationImageView.xcconfig */;
+			baseConfigurationReference = 1F83AFE8A61930BF763B9763E0E73CD7 /* DriftAnimationImageView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1187,7 +1519,7 @@
 		};
 		D421D6F1EC216192B4CD46D3983DBAD9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE049ADBDD6CEFE0D54892FD0712B8A2 /* MBSimpleLoadingIndicator.xcconfig */;
+			baseConfigurationReference = DF5A6E2E9603EC1C155C3FC72986A83E /* MBSimpleLoadingIndicator.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1216,7 +1548,7 @@
 		};
 		DAB012FAB1E3C146281E807F8D6C1A75 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A205228E98750DC5D5E1DDF6F97DA02 /* DriftAnimationImageView.xcconfig */;
+			baseConfigurationReference = 1F83AFE8A61930BF763B9763E0E73CD7 /* DriftAnimationImageView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1246,7 +1578,7 @@
 		};
 		E1A0AAA5D04D946B51B51EE17518C603 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A205228E98750DC5D5E1DDF6F97DA02 /* DriftAnimationImageView.xcconfig */;
+			baseConfigurationReference = 1F83AFE8A61930BF763B9763E0E73CD7 /* DriftAnimationImageView.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DriftAnimationImageView";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

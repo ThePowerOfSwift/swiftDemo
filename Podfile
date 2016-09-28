@@ -13,4 +13,5 @@ target 'Demo' do
     pod 'ALCameraViewController', '~> 1.2'
     pod 'DriftAnimationImageView', '~> 0.1'
     pod 'MBSimpleLoadingIndicator', '~> 0.1'
+    pod 'OpenCV', '~> 3.1'
 end
