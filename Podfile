@@ -12,4 +12,5 @@ target 'Demo' do
     pod 'Firebase/Storage'
     pod 'ALCameraViewController', '~> 1.2'
     pod 'DriftAnimationImageView', '~> 0.1'
+    pod 'MBSimpleLoadingIndicator', '~> 0.1'
 end

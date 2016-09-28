@@ -1,0 +1,6 @@
+framework module MBSimpleLoadingIndicator {
+  umbrella header "MBSimpleLoadingIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

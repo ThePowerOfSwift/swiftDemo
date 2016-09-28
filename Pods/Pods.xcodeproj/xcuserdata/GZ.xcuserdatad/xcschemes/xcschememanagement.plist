@@ -17,6 +17,16 @@
 		<key>DriftAnimationImageView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBSimpleLoadingIndicator-MBSimpleLoadingIndicator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBSimpleLoadingIndicator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
 			<true/>
 		</dict>
 		<key>Pods-Demo.xcscheme</key>
@@ -32,12 +42,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2524C3E801A2BF0C14DED636E11F981E</key>
+		<key>3BA1EB8C83CBBF5A82FC045C3FC393A8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>5C30BFF53E4DD37341956FF6E18934A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9FDE839A11A89EA591C52D88232BB96D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D91BF403C2177810E3FD0E71CC4BA05F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

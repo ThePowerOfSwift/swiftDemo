@@ -189,6 +189,10 @@ class MainViewController: UIViewController {
         
     }
     
+    //MARK: Segues
+    ///Unwind next step to current step
+    @IBAction func unwindToMainVC(segue: UIStoryboardSegue){}
+    
     //MARK: UI Actions
     
     /// UI actions for submit button
@@ -217,7 +221,7 @@ class MainViewController: UIViewController {
     func triggerCameraViewController(){
         self.presentViewController(self.cameraViewController, animated: true, completion: nil)
     }
-
+    
 }
 
 extension MainViewController: UITextFieldDelegate {

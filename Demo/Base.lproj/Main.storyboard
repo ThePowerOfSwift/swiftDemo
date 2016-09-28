@@ -9,7 +9,7 @@
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainVC" id="BYZ-38-t0r" customClass="MainViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -20,6 +20,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="MSH-vV-lUz"/>
+                    <connections>
+                        <segue destination="FsV-3l-s4g" kind="push" identifier="toUpdatesTableVC" id="Aaq-ZJ-yOV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -35,7 +38,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="UpdatesTableViewCell" rowHeight="173" id="rfr-11-nVM" customClass="UpdatesTableViewCell" customModule="Demo" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="173"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="173"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rfr-11-nVM" id="8ku-mj-owz">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="172"/>
@@ -65,8 +68,13 @@
                             <outlet property="delegate" destination="FsV-3l-s4g" id="ZjA-HE-kjr"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="faH-zI-4CW"/>
+                    <connections>
+                        <segue destination="6pC-aK-iBz" kind="unwind" identifier="unwindToPrevious" unwindAction="unwindToMainVC:" id="eRi-Bh-wEf"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwN-Ad-EkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="6pC-aK-iBz" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="484" y="956"/>
         </scene>
