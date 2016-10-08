@@ -7,7 +7,6 @@
 
 import UIKit
 import Firebase
-import ALCameraViewController
 import DriftAnimationImageView
 
 class MainViewController: UIViewController {
@@ -84,9 +83,6 @@ class MainViewController: UIViewController {
         return button
     }()
     
-    
-    var cameraViewController:CameraViewController!
-    
     //MARK: - Super Class Variables Override
     
     //MARK: - View Controller Life Cycles
@@ -107,18 +103,6 @@ class MainViewController: UIViewController {
         self.view.addSubview(self.dimensionWidthField)
         self.view.addSubview(self.dimensionLengthField)
         self.view.addSubview(self.submitButton)
-        self.cameraViewController = CameraViewController(croppingEnabled: true, allowsLibraryAccess: true, completion: { [weak self] (image, asset) in
-            guard image != nil else {
-                self?.dismissViewControllerAnimated(true, completion: nil)
-                return
-            }
-            // Recommend to update product profile picture on the main thread
-            dispatch_async(dispatch_get_main_queue(), {
-                self?.productPictureImageView.image = image
-                self?.dismissViewControllerAnimated(true, completion: nil)
-            })
-            
-        })
     }
     
     //MARK: - UI Elements
@@ -220,7 +204,8 @@ class MainViewController: UIViewController {
     
     /// UI actions to pop up camera view controller
     func triggerCameraViewController(){
-        self.presentViewController(self.cameraViewController, animated: true, completion: nil)
+        let cameraVC = cameraFrameProcessor(nibName: nil, bundle: nil)
+        self.presentViewController(cameraVC, animated: true, completion: nil)
     }
     
 }

@@ -19,8 +19,8 @@ using namespace std;
     Mat mat = [inputImage CVMat];
     
     //Processing bases on the purpose of this App
-    
-    return [UIImage imageWithCVMat:mat];
+    UIImage *image = [[UIImage alloc] initWithCVMat:mat];
+    return image;
 }
 
 @end

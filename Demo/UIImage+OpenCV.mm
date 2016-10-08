@@ -16,6 +16,8 @@
 
 #import "UIImage+OpenCV.h"
 
+#include <opencv2/opencv.hpp>
+
 
 @implementation UIImage (OpenCV)
 
@@ -78,6 +80,101 @@
 {
     return [[UIImage alloc] initWithCVMat:cvMat];
 }
+
+//+(UIImage *)imageBySurfFeatureMatching:(UIImage*)image
+//{
+//    UIImage *sceneImage, *objectImage1;
+//    cv::Mat sceneImageMat, objectImageMat1;
+//    std::vector<cv::KeyPoint> sceneKeypoints, objectKeypoints1;
+//    cv::Mat sceneDescriptors, objectDescriptors1;
+//    cv::SurfFeatureDetector *surfDetector;
+//    cv::FlannBasedMatcher flannMatcher;
+//    cv::vector<cv::DMatch> matches;
+//    int minHessian;
+//    double minDistMultiplier;
+//    
+//    minHessian = 400;
+//    minDistMultiplier= 3;
+//    surfDetector = new cv::SurfFeatureDetector(minHessian);
+//    
+//    sceneImage = [UIImage imageNamed:@"twitter_scene.png"];
+//    objectImage1 = [UIImage imageNamed:@"twitter.png"];
+//    
+//    sceneImageMat = cv::Mat(sceneImage.size.height, sceneImage.size.width, CV_8UC1);
+//    objectImageMat1 = cv::Mat(objectImage1.size.height, objectImage1.size.width, CV_8UC1);
+//    
+//    cv::cvtColor([sceneImage CVMat], sceneImageMat, CV_RGB2GRAY);
+//    cv::cvtColor([objectImage1 CVMat], objectImageMat1, CV_RGB2GRAY);
+//    
+//    if (!sceneImageMat.data || !objectImageMat1.data) {
+//        NSLog(@"NO DATA");
+//    }
+//    
+//    surfDetector->detect(sceneImageMat, sceneKeypoints);
+//    surfDetector->detect(objectImageMat1, objectKeypoints1);
+//    
+//    surfExtractor.compute(sceneImageMat, sceneKeypoints, sceneDescriptors);
+//    surfExtractor.compute(objectImageMat1, objectKeypoints1, objectDescriptors1);
+//    
+//    flannMatcher.match(objectDescriptors1, sceneDescriptors, matches);
+//    
+//    double max_dist = 0; double min_dist = 100;
+//    
+//    for( int i = 0; i < objectDescriptors1.rows; i++ )
+//    {
+//        double dist = matches[i].distance;
+//        if( dist < min_dist ) min_dist = dist;
+//        if( dist > max_dist ) max_dist = dist;
+//    }
+//    
+//    cv::vector<cv::DMatch> goodMatches;
+//    for( int i = 0; i < objectDescriptors1.rows; i++ )
+//    {
+//        if( matches[i].distance < minDistMultiplier*min_dist )
+//        {
+//            goodMatches.push_back( matches[i]);
+//        }
+//    }
+//    NSLog(@"Good matches found: %lu", goodMatches.size());
+//    
+//    cv::Mat imageMatches;
+//    cv::drawMatches(objectImageMat1, objectKeypoints1, sceneImageMat, sceneKeypoints, goodMatches, imageMatches, cv::Scalar::all(-1), cv::Scalar::all(-1),
+//                    cv::vector<char>(), cv::DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS);
+//    
+//    for( int i = 0; i < goodMatches.size(); i++ )
+//    {
+//        //-- Get the keypoints from the good matches
+//        obj.push_back( objectKeypoints1[ goodMatches[i].queryIdx ].pt );
+//        scn.push_back( objectKeypoints1[ goodMatches[i].trainIdx ].pt );
+//    }
+//    
+//    cv::vector<uchar> outputMask;
+//    cv::Mat homography = cv::findHomography(obj, scn, CV_RANSAC, 3, outputMask);
+//    int inlierCounter = 0;
+//    for (int i = 0; i < outputMask.size(); i++) {
+//        if (outputMask[i] == 1) {
+//            inlierCounter++;
+//        }
+//    }
+//    NSLog(@"Inliers percentage: %d", (int)(((float)inlierCounter / (float)outputMask.size()) * 100));
+//    
+//    cv::vector<cv::Point2f> objCorners(4);
+//    objCorners[0] = cv::Point(0,0);
+//    objCorners[1] = cv::Point( objectImageMat1.cols, 0 );
+//    objCorners[2] = cv::Point( objectImageMat1.cols, objectImageMat1.rows );
+//    objCorners[3] = cv::Point( 0, objectImageMat1.rows );
+//    
+//    cv::vector<cv::Point2f> scnCorners(4);
+//    
+//    cv::perspectiveTransform(objCorners, scnCorners, homography);
+//    
+//    cv::line( imageMatches, scnCorners[0] + cv::Point2f( objectImageMat1.cols, 0), scnCorners[1] + cv::Point2f( objectImageMat1.cols, 0), cv::Scalar(0, 255, 0), 4);
+//    cv::line( imageMatches, scnCorners[1] + cv::Point2f( objectImageMat1.cols, 0), scnCorners[2] + cv::Point2f( objectImageMat1.cols, 0), cv::Scalar( 0, 255, 0), 4);
+//    cv::line( imageMatches, scnCorners[2] + cv::Point2f( objectImageMat1.cols, 0), scnCorners[3] + cv::Point2f( objectImageMat1.cols, 0), cv::Scalar( 0, 255, 0), 4);
+//    cv::line( imageMatches, scnCorners[3] + cv::Point2f( objectImageMat1.cols, 0), scnCorners[0] + cv::Point2f( objectImageMat1.cols, 0), cv::Scalar( 0, 255, 0), 4);
+//    
+//    [self.mainImageView setImage:[UIImage imageWithCVMat:imageMatches]];
+//}
 
 - (id)initWithCVMat:(const cv::Mat&)cvMat
 {

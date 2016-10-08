@@ -1,22 +1,24 @@
 PODS:
   - ALCameraViewController (1.2.3)
   - DriftAnimationImageView (0.1.0)
-  - Firebase (3.6.0):
-    - Firebase/Core (= 3.6.0)
-  - Firebase/Analytics (3.6.0):
-    - FirebaseAnalytics (= 3.4.2)
-  - Firebase/Core (3.6.0):
-    - Firebase/Analytics
-  - Firebase/Database (3.6.0):
-    - Firebase/Analytics
+  - Firebase (3.7.1):
+    - Firebase/Core (= 3.7.1)
+  - Firebase/Core (3.7.1):
+    - FirebaseAnalytics (= 3.4.4)
+    - FirebaseCore (= 3.4.3)
+  - Firebase/Database (3.7.1):
+    - Firebase/Core
     - FirebaseDatabase (= 3.0.3)
-  - Firebase/Storage (3.6.0):
-    - Firebase/Analytics
+  - Firebase/Storage (3.7.1):
+    - Firebase/Core
     - FirebaseStorage (= 1.0.3)
-  - FirebaseAnalytics (3.4.2):
+  - FirebaseAnalytics (3.4.4):
+    - FirebaseCore (~> 3.4)
     - FirebaseInstanceID (~> 1.0)
     - GoogleInterchangeUtilities (~> 1.2)
     - GoogleSymbolUtilities (~> 1.1)
+  - FirebaseCore (3.4.3):
+    - GoogleInterchangeUtilities (~> 1.2)
     - GoogleUtilities (~> 1.2)
   - FirebaseDatabase (3.0.3):
     - FirebaseAnalytics (~> 3.3)
@@ -24,15 +26,15 @@ PODS:
   - FirebaseStorage (1.0.3):
     - FirebaseAnalytics (~> 3.3)
     - GoogleNetworkingUtilities (~> 1.2)
-  - GoogleInterchangeUtilities (1.2.1):
-    - GoogleSymbolUtilities (~> 1.0)
-  - GoogleNetworkingUtilities (1.2.1):
-    - GoogleSymbolUtilities (~> 1.0)
-  - GoogleSymbolUtilities (1.1.1)
-  - GoogleUtilities (1.3.1):
-    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleNetworkingUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
   - MBSimpleLoadingIndicator (0.1.0)
-  - OpenCV (3.1.0.1)
+  - OpenCV (2.4.9)
 
 DEPENDENCIES:
   - ALCameraViewController (~> 1.2)
@@ -41,23 +43,24 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Storage
   - MBSimpleLoadingIndicator (~> 0.1)
-  - OpenCV (~> 3.1)
+  - OpenCV (= 2.4.9)
 
 SPEC CHECKSUMS:
   ALCameraViewController: b890aae2f0b2958346f7ea5ae4f8f2b3ad9d5524
   DriftAnimationImageView: b2f69a5f16a09e5bc9c7848fc4002fc6078e2dd5
-  Firebase: 34187200ef4979dbd485c7aa685ef078bf587c86
-  FirebaseAnalytics: 3f5358d9104adf159cc8d99b7b501e50099a39ad
+  Firebase: be473484f0d515e72ffd04acf22f981773c23e58
+  FirebaseAnalytics: 0533a00b681e08fd0b2cd0444b7ddf0ef9fd7a1a
+  FirebaseCore: 5a885548bbc5f0c410b04f8e9ac9d73ff1221907
   FirebaseDatabase: 750a4a0fe18ef114318876fd654b2d9c671e0992
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
   FirebaseStorage: 3992817bf405f5c1a4f8349678d22724cd0ef509
-  GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
-  GoogleNetworkingUtilities: 3e83269048cfb498dc7ec83ab36813360965c74f
-  GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
-  GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
   MBSimpleLoadingIndicator: bb386548fda4a75fd792b1793ac1cd8ff2862cf7
-  OpenCV: 41c4250e2b06a394d6fbb634b5fa622cdd846018
+  OpenCV: bb17904e55fc19b1f0f6c3e29bc04a7dd31eddb9
 
-PODFILE CHECKSUM: 691d9ea8e2090e1285842a3f9acd53c9a8fa3118
+PODFILE CHECKSUM: db45fbc54167341c30f73b784eec8ea331b8a8e2
 
 COCOAPODS: 1.0.1

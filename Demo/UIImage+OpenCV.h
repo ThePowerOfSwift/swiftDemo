@@ -14,6 +14,12 @@
 
 #import <UIKit/UIKit.h>
 #import <opencv2/opencv.hpp>
+#import <opencv2/nonfree/features2d.hpp>
+#import <opencv2/core/core.hpp>
+#import <opencv2/nonfree/nonfree.hpp>
+#import <opencv2/calib3d/calib3d.hpp>
+#import <opencv2/highgui/highgui.hpp>
+
 
 @interface UIImage (OpenCV)
 
