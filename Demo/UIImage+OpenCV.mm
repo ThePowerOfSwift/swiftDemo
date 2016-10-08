@@ -181,11 +181,13 @@
     NSData *data = [NSData dataWithBytes:cvMat.data length:cvMat.elemSize() * cvMat.total()];
     CGColorSpaceRef colorSpace;
     
-    if (cvMat.elemSize() == 1) {
-        colorSpace = CGColorSpaceCreateDeviceGray();
-    } else {
-        colorSpace = CGColorSpaceCreateDeviceRGB();
-    }
+    colorSpace = CGColorSpaceCreateDeviceGray();
+    
+//    if (cvMat.elemSize() == 1) {
+//        colorSpace = CGColorSpaceCreateDeviceGray();
+//    } else {
+//        colorSpace = CGColorSpaceCreateDeviceRGB();
+//    }
     
     CGDataProviderRef provider = CGDataProviderCreateWithCFData((__bridge CFDataRef)data);
     

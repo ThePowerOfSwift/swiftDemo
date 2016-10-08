@@ -23,4 +23,12 @@ using namespace std;
     return image;
 }
 
++(UIImage*)feature2DRecognitionForImage: (UIImage*)targetImage andImage: (UIImage*)referenceImage {
+    Mat mat = [targetImage CVMat];
+    
+    //Processing bases on the purpose of this App
+    UIImage *image = [[UIImage alloc] initWithCVMat:mat];
+    return image;
+}
+
 @end
