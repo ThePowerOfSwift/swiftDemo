@@ -8,6 +8,7 @@
 
 #include "OpenCVWrapper.h"
 #import "UIImage+OpenCV.h"
+#import <opencv2/highgui/ios.h>
 #include <opencv2/opencv.hpp>
 
 using namespace cv;
@@ -20,14 +21,17 @@ using namespace std;
     
     //Processing bases on the purpose of this App
     UIImage *image = [[UIImage alloc] initWithCVMat:mat];
+    
     return image;
 }
 
-+(UIImage*)feature2DRecognitionForImage: (UIImage*)targetImage andImage: (UIImage*)referenceImage {
-    Mat mat = [targetImage CVMat];
++(UIImage*)feature2DRecognitionForImage: (UIImage*)referenceImage andOriginalImage: (UIImage*)originalImage {
+    cv::Mat originalMat, referenceMat;
+    UIImageToMat(originalImage, originalMat);
+    UIImageToMat(referenceImage, referenceMat);
     
     //Processing bases on the purpose of this App
-    UIImage *image = [[UIImage alloc] initWithCVMat:mat];
+    UIImage *image = [[UIImage alloc] initForFeatureMatching:referenceMat andOriginalMat:originalMat];
     return image;
 }
 

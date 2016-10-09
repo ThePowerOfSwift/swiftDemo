@@ -181,13 +181,11 @@
     NSData *data = [NSData dataWithBytes:cvMat.data length:cvMat.elemSize() * cvMat.total()];
     CGColorSpaceRef colorSpace;
     
-    colorSpace = CGColorSpaceCreateDeviceGray();
-    
-//    if (cvMat.elemSize() == 1) {
-//        colorSpace = CGColorSpaceCreateDeviceGray();
-//    } else {
-//        colorSpace = CGColorSpaceCreateDeviceRGB();
-//    }
+    if (cvMat.elemSize() == 1) {
+        colorSpace = CGColorSpaceCreateDeviceGray();
+    } else {
+        colorSpace = CGColorSpaceCreateDeviceRGB();
+    }
     
     CGDataProviderRef provider = CGDataProviderCreateWithCFData((__bridge CFDataRef)data);
     
@@ -214,6 +212,97 @@
     return self;
 }
 
+- (id)initForFeatureMatching:(const cv::Mat&)referenceMat andOriginalMat: (const cv::Mat&)originalMat
+{
+    
+    cv::SurfFeatureDetector surf(400);
+    std::vector<cv::KeyPoint> keypoints_object, keypoints_scene;
+    surf.detect( originalMat, keypoints_object );
+    surf.detect( referenceMat, keypoints_scene );
+    
+    //-- Step 2: Calculate descriptors (feature vectors)
+    cv::SurfDescriptorExtractor extractor;
+    
+    cv::Mat descriptors_object, descriptors_scene;
+    
+    extractor.compute( originalMat, keypoints_object, descriptors_object );
+    extractor.compute( referenceMat, keypoints_scene, descriptors_scene );
+    
+    //MARK:NOTE: add following lines to avoid FLANN error
+    if(descriptors_object.empty()) {
+        return self;
+    }
+    
+    if(descriptors_scene.empty()) {
+        return self;
+    }
+    
+    //-- Step 3: Matching descriptor vectors using FLANN matcher
+    cv::FlannBasedMatcher matcher;
+    std::vector< cv::DMatch > matches;
+    matcher.match( descriptors_object, descriptors_scene, matches );
+    
+    double max_dist = 0; double min_dist = 100;
+    
+    //-- Quick calculation of max and min distances between keypoints
+    for( int i = 0; i < descriptors_object.rows; i++ )
+    { double dist = matches[i].distance;
+        if( dist < min_dist ) min_dist = dist;
+        if( dist > max_dist ) max_dist = dist;
+    }
+    
+    printf("-- Max dist : %f \n", max_dist );
+    printf("-- Min dist : %f \n", min_dist );
+    
+    //-- Draw only "good" matches (i.e. whose distance is less than 3*min_dist )
+    std::vector< cv::DMatch > good_matches;
+    
+    for( int i = 0; i < descriptors_object.rows; i++ )
+    { if( matches[i].distance < 3*min_dist )
+    { good_matches.push_back( matches[i]); }
+    }
+    
+    cv::Mat img_matches;
+    drawMatches( originalMat, keypoints_object, referenceMat, keypoints_scene,
+                good_matches, img_matches, cv::Scalar::all(-1), cv::Scalar::all(-1),
+                cv::vector<char>(), cv::DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS );
+    
+    //-- Localize the object
+    std::vector<cv::Point2f> obj;
+    std::vector<cv::Point2f> scene;
+    
+    //MARK: NOTE: good matches should always be greater than 4, or cvFindHomography will return error
+    if(good_matches.size()<4) {
+        return self;
+    }
+    
+    for( int i = 0; i < good_matches.size(); i++ )
+    {
+        //-- Get the keypoints from the good matches
+        obj.push_back( keypoints_object[ good_matches[i].queryIdx ].pt );
+        scene.push_back( keypoints_scene[ good_matches[i].trainIdx ].pt );
+    }
+    
+    cv::Mat H = findHomography( obj, scene, CV_RANSAC );
+    
+    //-- Get the corners from the image_1 ( the object to be "detected" )
+    std::vector<cv::Point2f> obj_corners(4);
+    obj_corners[0] = cvPoint(0,0); obj_corners[1] = cvPoint( originalMat.cols, 0 );
+    obj_corners[2] = cvPoint( originalMat.cols, originalMat.rows ); obj_corners[3] = cvPoint( 0, originalMat.rows );
+    std::vector<cv::Point2f> scene_corners(4);
+    
+    perspectiveTransform( obj_corners, scene_corners, H);
+    
+    //-- Draw lines between the corners (the mapped object in the scene - image_2 )
+    line( img_matches, scene_corners[0] + cv::Point2f( originalMat.cols, 0), scene_corners[1] + cv::Point2f( originalMat.cols, 0), cvScalar(0, 255, 0), 4 );
+    line( img_matches, scene_corners[1] + cv::Point2f( originalMat.cols, 0), scene_corners[2] + cv::Point2f( originalMat.cols, 0), cvScalar( 0, 255, 0), 4 );
+    line( img_matches, scene_corners[2] + cv::Point2f( originalMat.cols, 0), scene_corners[3] + cv::Point2f( originalMat.cols, 0), cvScalar( 0, 255, 0), 4 );
+    line( img_matches, scene_corners[3] + cv::Point2f( originalMat.cols, 0), scene_corners[0] + cv::Point2f( originalMat.cols, 0), cvScalar( 0, 255, 0), 4 );
+    
+    self = MatToUIImage(img_matches);
+    
+    return self;
+}
 
 
 @end

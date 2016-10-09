@@ -10,5 +10,5 @@
 
 @interface OpenCVWrapper : NSObject
     +(UIImage*)processImageWithOpenCV: (UIImage*)inputImage;
-    +(UIImage*)feature2DRecognitionForImage: (UIImage*)targetImage andImage: (UIImage*)referenceImage;
+    +(UIImage*)feature2DRecognitionForImage: (UIImage*)referenceImage andOriginalImage: (UIImage*)originalImage;
 @end

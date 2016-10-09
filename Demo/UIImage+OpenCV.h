@@ -19,6 +19,7 @@
 #import <opencv2/nonfree/nonfree.hpp>
 #import <opencv2/calib3d/calib3d.hpp>
 #import <opencv2/highgui/highgui.hpp>
+#import <opencv2/highgui/ios.h>
 
 
 @interface UIImage (OpenCV)
@@ -26,6 +27,7 @@
 //cv::Mat to UIImage
 + (UIImage *)imageWithCVMat:(const cv::Mat&)cvMat;
 - (id)initWithCVMat:(const cv::Mat&)cvMat;
+- (id)initForFeatureMatching:(const cv::Mat&)referenceMat andOriginalMat: (const cv::Mat&)originalMat;
 
 //UIImage to cv::Mat
 - (cv::Mat)CVMat;

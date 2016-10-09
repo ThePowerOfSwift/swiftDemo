@@ -31,7 +31,8 @@ class cameraFrameProcessor: UIViewController {
     
     override func viewDidLoad() {
         self.configInputAndOutput()
-        self.proceededVideoViewer = UIImageView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height/2))
+        self.proceededVideoViewer = UIImageView(frame: self.view.frame)
+        self.proceededVideoViewer.alpha = 0.5
         self.proceededVideoViewer.contentMode = .ScaleAspectFit
         self.view.addSubview(self.proceededVideoViewer)
     }
@@ -111,10 +112,11 @@ extension cameraFrameProcessor: AVCaptureVideoDataOutputSampleBufferDelegate {
                 CGFloat(CVPixelBufferGetHeight(pixelBuffer)))
         )
         
-        let image = OpenCVWrapper.feature2DRecognitionForImage(UIImage(CGImage: image_CG!), andImage: UIImage(named: "reference_product"))//  Here you have UIImage
+        let image = OpenCVWrapper.feature2DRecognitionForImage(UIImage(named: "macbook_air"), andOriginalImage: UIImage(CGImage: image_CG!))
+        
         dispatch_async(dispatch_get_main_queue()) { 
             self.proceededVideoViewer.image = image
         }
-        print("did receive video frames... -> \(image)")
+        print("did receive video frames... -> \(image==nil)")
     }
 }
